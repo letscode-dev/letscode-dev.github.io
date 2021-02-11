@@ -9,23 +9,30 @@
 <body>
 	<div id="root">
 
-		<h2>Основные ссылки</h2>
-		<div class="list-container">
-			<div class="list-item">
-				<ul class="list-item__title">
-				    <li v-for="item in linksMain" v-html="item.name"></li>
-				</ul>
+		<div class="header__container">
+			<div>
+				<div class="logo"></div>
+				<h1>Dev Pandaren</h1>
 			</div>
-			<div class="list-item">
-				<ul class="list-item__link">
-					<li v-for="item in linksMain">
-						<a :href="item.link" target="_blank" v-html="item.link"></a>
-					</li>
-				</ul>
+
+			<div class="list-container header__list">
+				<div class="list-item">
+					<ul class="list-item__title">
+					    <li v-for="item in linksMain" v-html="item.name"></li>
+					</ul>
+				</div>
+				<div class="list-item">
+					<ul class="list-item__link">
+						<li v-for="item in linksMain">
+							<a :href="item.link" target="_blank" v-html="item.link"></a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 
-		<h2>Курсы</h2>
+
+		<h2>Cources</h2>
 
 		<div v-for="itemCources in cources">
 			<h4 v-html="itemCources.title"></h4>

@@ -118,6 +118,9 @@ CLASSES
 	color: #666666;
 	text-decoration: none;
 }
+.list-item a:hover {
+	text-decoration: underline;
+}
 .list-item__title {
 	list-style-type: none;
 	margin: 0;
@@ -136,7 +139,21 @@ CLASSES
 	margin-left: 20px;
 }
 
+.logo {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	margin-bottom: 30px;
+	background-image: url('../img/logo.png');
+	background-position: center center;
+	background-size: cover;
+	border-radius: 50%;
+	box-shadow: var(--box-shadow);
+}
 
-
-
-
+.header__container {
+	display: flex;
+}
+.header__list {
+	margin-left: 50px;
+}
