@@ -25,22 +25,26 @@
 			</div>
 		</div>
 
-		<h2>Курс React/Redux-практика</h2>
-		<div class="list-container">
-			<div class="list-item">
-				<ul class="list-item__title">
-					<li v-for="item in cources.react.links" v-html="item.name"></li>
-					<li>Уровень</li>
-				</ul>
+		<div v-for="itemCources in cources">
+			<h2 v-html="itemCources.title"></h2>
+
+			<div class="list-container">
+				<div class="list-item">
+					<ul class="list-item__title">
+						<li v-for="item in itemCources.links" v-html="item.name"></li>
+						<li>Уровень</li>
+					</ul>
+				</div>
+				<div class="list-item">
+					<ul class="list-item__link">
+						<li v-for="item in itemCources.links">
+							<a :href="item.link" target="_blank" v-html="item.link"></a>
+						</li>
+						<li v-html="itemCources.level"></li>
+					</ul>
+				</div>
 			</div>
-			<div class="list-item">
-				<ul class="list-item__link">
-					<li v-for="item in cources.react.links">
-						<a :href="item.link" target="_blank" v-html="item.link"></a>
-					</li>
-					<li v-html="cources.react.level"></li>
-				</ul>
-			</div>
+
 		</div>
 
 	</div>

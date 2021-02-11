@@ -6,8 +6,9 @@ const ARR_LINKS_MAIN = [
     { name: 'Telegram Chat',    link: 'https://t.me/devpandaren_chat' },
 ];
 
-const ARR_COURCES = {
-    react: {
+const ARR_COURCES = [
+    {
+        title: 'Курс React/Redux-практика',
         links: [
             { name: 'Проект',      link: 'https://dev-pandaren.github.io/react-star-wars/' },
             { name: 'Репозиторий', link: 'https://github.com/dev-pandaren/react-star-wars' },
@@ -15,7 +16,7 @@ const ARR_COURCES = {
         ],
         level: 'Продвинутый'
     }
-};
+];
 
 new Vue({
     el: '#root',
