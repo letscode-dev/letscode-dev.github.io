@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dev Pandaren</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div id="root">
+
+		<h2>Основные ссылки</h2>
+		<div class="list-container">
+			<div class="list-item">
+				<ul class="list-item__title">
+				    <li v-for="item in linksMain" v-html="item.name"></li>
+				</ul>
+			</div>
+			<div class="list-item">
+				<ul class="list-item__link">
+					<li v-for="item in linksMain">
+						<a :href="item.link" target="_blank" v-html="item.link"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<h2>Курс React/Redux-практика</h2>
+		<div class="list-container">
+			<div class="list-item">
+				<ul class="list-item__title">
+					<li v-for="item in cources.react.links" v-html="item.name"></li>
+					<li>Уровень</li>
+				</ul>
+			</div>
+			<div class="list-item">
+				<ul class="list-item__link">
+					<li v-for="item in cources.react.links">
+						<a :href="item.link" target="_blank" v-html="item.link"></a>
+					</li>
+					<li v-html="cources.react.level"></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="libs/vue.js"></script>
+	<script src="js/vue.js"></script>
+</body>
+</html>

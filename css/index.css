@@ -1,0 +1,141 @@
+
+:root {
+	--theme-green:       74, 175, 45;
+	--theme-blue:        11, 168, 160;
+	--theme-crimson:     191, 122, 190;
+	--theme-brown:       179, 183, 104;
+	--theme-violet:      71, 7, 183;
+
+	--color-error:       226, 131, 174;  /*dark pink*/
+	--color-black:       0, 0, 0;        /*black*/
+	--color-dark-green:  42, 61, 47;     /*dark green*/
+	--color-blue:        19, 193, 247;   /*blue blue*/
+	--color-yellowgreen: 152, 195, 121;  /*yellowgreen*/
+
+	--box-shadow:
+		0 16px 24px 2px rgba(33,37,41,.02), 
+		0 6px 30px 5px rgba(33,37,41,.04), 
+		0 8px 10px -5px rgba(33,37,41,.1);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.7;
+	font-family: Segoe UI, sans-serif;
+	font-size: 16px;
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+*::selection {
+	background: rgba(var(--theme-blue), 0.4);
+}
+
+
+/***************************************************
+SCROLLBAR
+/***************************************************/
+* {
+	scrollbar-color: rgba(var(--color-black), 0.2) rgba(var(--color-black), 0.1);
+	scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba(var(--color-black), 0.2);
+	border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+	background-color: rgba(var(--color-black), 0.1);
+}
+
+
+/***************************************************
+TAGS
+/***************************************************/
+img {
+	display: block;
+	border-radius: .25rem;
+	box-shadow: var(--box-shadow);
+}
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 25px;
+}
+h2 {
+	margin: 5px 0px 15px 0px;
+	padding: 15px;
+	font-size: 20px;
+	color: #2c3e50;
+	border-bottom: 1px solid #ddd;
+}
+h3 {
+	margin: 15px 0px 15px 0px;
+	padding: 10px;
+	color: #42b983;
+	font-size: 18px;
+}
+h4 {
+	margin: 15px 0px 15px 0px;
+	padding-bottom: 5px;
+}
+em {
+	color: #690;
+	font-style: normal;
+}
+i {
+	color: grey;
+}
+hr {
+    background-color: #ddd;
+    border: none;
+    height: 1px;
+    margin: 30px 0;
+}
+summary {
+	cursor: pointer;
+	outline: none;
+}
+
+
+/***************************************************
+CLASSES
+/***************************************************/
+.list-container {
+	display: flex;
+	line-height: 2;
+	font-family: monospace;
+	padding: 20px 0;
+}
+.list-item a {
+	color: #666666;
+	text-decoration: none;
+}
+.list-item__title {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.list-item__title li:before {
+	content: '⚡️';
+	margin-right: 10px;
+}
+.list-item__link {
+	flex-grow: 1;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+}
+
+
+
+
+
