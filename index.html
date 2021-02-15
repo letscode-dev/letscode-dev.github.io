@@ -9,51 +9,66 @@
 <body>
 	<div id="root">
 
-		<div class="header__container">
-			<div>
-				<div class="logo"></div>
-				<h1>Dev Pandaren</h1>
-			</div>
+		<div class="structure__container">
+			
+			<div
+				class="structure__logo header__logo"
+				style="background-image: url('img/logo.png');"
+			></div>
 
-			<div class="list-container header__list">
-				<div class="list-item">
-					<ul class="list-item__title">
-					    <li v-for="item in linksMain" v-html="item.name"></li>
+			<div class="structure__content">
+				<h1 class="structure__text">Dev Pandaren</h1>
+
+				<div class="list__container">
+					<ul class="list__item-title">
+					    <li v-for="item in linksMain" v-html="'⚡️ '+item.name"></li>
 					</ul>
-				</div>
-				<div class="list-item">
-					<ul class="list-item__link">
+					<ul class="list__item-link">
 						<li v-for="item in linksMain">
-							<a :href="item.link" target="_blank" v-html="item.link"></a>
+							<a
+								class="list__link"
+								:href="item.link"
+								target="_blank"
+								v-html="item.link"
+							></a>
 						</li>
 					</ul>
 				</div>
+
 			</div>
 		</div>
 
-
-		<h2>Cources</h2>
+		<h2>Курсы</h2>
 
 		<div v-for="itemCources in cources">
-			<h4 v-html="itemCources.title"></h4>
 
-			<div class="list-container">
-				<div class="list-item">
-					<ul class="list-item__title">
-						<li v-for="item in itemCources.links" v-html="item.name"></li>
-						<li>Уровень</li>
-					</ul>
-				</div>
-				<div class="list-item">
-					<ul class="list-item__link">
-						<li v-for="item in itemCources.links">
-							<a :href="item.link" target="_blank" v-html="item.link"></a>
-						</li>
-						<li v-html="itemCources.level"></li>
-					</ul>
+			<div class="structure__container structure__shadow">
+				
+				<div class="structure__logo" :style="'background-image: url('+itemCources.img+');'"></div>
+
+				<div class="structure__content">
+					<h3 class="structure__text" v-html="itemCources.title">Dev Pandaren</h3>
+
+					<div class="list__container">
+						<ul class="list__item-title">
+						    <li v-for="item in itemCources.links" v-html="'🔰 '+item.name"></li>
+						    <li>Уровень</li>
+						</ul>
+						<ul class="list__item-link">
+							<li v-for="item in itemCources.links">
+								<a
+									class="list__link"
+									:href="item.link"
+									target="_blank"
+									v-html="item.link"
+								></a>
+							</li>
+							<li v-html="itemCources.level"></li>
+						</ul>
+					</div>
+
 				</div>
 			</div>
-
 		</div>
 
 	</div>

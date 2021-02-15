@@ -27,6 +27,7 @@ body {
 	max-width: 1200px;
 	margin: auto;
 	padding: 20px;
+	background-color: #f8f9fa;
 }
 * {
     box-sizing: border-box;
@@ -106,54 +107,70 @@ summary {
 
 
 /***************************************************
-CLASSES
+STRUCTURE
 /***************************************************/
-.list-container {
+.structure__container {
+	display: flex;
+}
+.structure__logo {
+	width: 200px;
+	height: 200px;
+	background-position: center center;
+	background-size: cover;
+	box-shadow: var(--box-shadow);
+	flex-shrink: 0;
+	border-radius: 5px;
+}
+.header__logo {
+	border-radius: 50%;
+}
+
+.structure__content {
+	padding: 0 50px;
+}
+.structure__text {
+	margin: 0;
+	text-align: left;
+}
+.structure__shadow {
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius: .25rem;
+	box-shadow:
+		0 16px 24px 2px rgba(33,37,41,.02), 
+		0 6px 30px 5px rgba(33,37,41,.04), 
+		0 8px 10px -5px rgba(33,37,41,.1);
+}
+
+/***************************************************
+LIST
+/***************************************************/
+.list__container {
 	display: flex;
 	line-height: 2;
-	font-family: monospace, sans-serif;
 	padding: 20px 0;
 }
-.list-item a {
-	color: #666666;
-	text-decoration: none;
-}
-.list-item a:hover {
-	text-decoration: underline;
-}
-.list-item__title {
+.list__item-title {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	min-width: 170px;
 }
-.list-item__title li:before {
-	content: '⚡️';
-	margin-right: 10px;
-}
-.list-item__link {
+.list__item-link {
 	flex-grow: 1;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	margin-left: 20px;
 }
-
-.logo {
-	width: 200px;
-	height: 200px;
-	margin: auto;
-	margin-bottom: 30px;
-	background-image: url('../img/logo.png');
-	background-position: center center;
-	background-size: cover;
-	border-radius: 50%;
-	box-shadow: var(--box-shadow);
+.list__link {
+	color: #666666;
+	transition: 0.4s;
+	text-decoration: none;
+	border-bottom: 1px solid #bababa;
 }
-
-.header__container {
-	display: flex;
-}
-.header__list {
-	margin-left: 50px;
+.list__link:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
 }

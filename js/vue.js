@@ -19,6 +19,7 @@ const ARR_COURCES = [
         ],
         level: 'Продвинутый',
         time: null,
+        img: 'img/courses/react-star-wars.png',
     },
     {
         title: 'Курс #2: JavaScript-практика (модульное приложение)',
@@ -29,6 +30,7 @@ const ARR_COURCES = [
         ],
         level: 'Средний',
         time: '3 часа 52 минуты',
+        img: 'img/courses/js-modules-comics.png',
     },
     {
         title: 'Курс #1: JavaScript-практика (простой проект)',
@@ -39,6 +41,7 @@ const ARR_COURCES = [
         ],
         level: 'Начальный',
         time: '2 часа 33 минуты',
+        img: 'img/courses/js-guitar-shop.png',
     },
     {
         title: 'Курс HTML5 и CSS3',
@@ -47,6 +50,7 @@ const ARR_COURCES = [
         ],
         level: 'Начальный / Средний / Продвинутый',
         time: null,
+        img: 'img/courses/css.png',
     },
 ];
 
