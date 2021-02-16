@@ -111,10 +111,11 @@ STRUCTURE
 /***************************************************/
 .structure__container {
 	display: flex;
+	min-height: 250px;
 }
 .structure__logo {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: auto;
 	background-position: center center;
 	background-size: cover;
 	box-shadow: var(--box-shadow);
@@ -122,6 +123,8 @@ STRUCTURE
 	border-radius: 5px;
 }
 .header__logo {
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
 }
 
