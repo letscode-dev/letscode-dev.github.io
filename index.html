@@ -44,10 +44,16 @@
 
 			<div class="structure__container structure__shadow">
 				
-				<div class="structure__logo" :style="'background-image: url('+itemCources.img+');'"></div>
+				<a
+					:href="itemCources.youtube"
+					class="structure__logo"
+					:style="'background-image: url('+itemCources.img+');'"
+					target="_blank"
+				>
+				</a>
 
 				<div class="structure__content">
-					<h3 class="structure__text" v-html="itemCources.title">Dev Pandaren</h3>
+					<h3 class="structure__text" v-html="itemCources.title"></h3>
 
 					<div class="list__container">
 						<ul class="list__item-title">
