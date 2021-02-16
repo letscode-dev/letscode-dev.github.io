@@ -1,16 +1,17 @@
 
-:root {
-	--theme-green:       74, 175, 45;
-	--theme-blue:        11, 168, 160;
-	--theme-crimson:     191, 122, 190;
-	--theme-brown:       179, 183, 104;
-	--theme-violet:      71, 7, 183;
+@font-face {
+    font-family: PT-Sans-Bold;
+    src: url(../fonts/PT_Sans-Web-Bold.ttf);
+}
+@font-face {
+    font-family: PT-Sans-Regular;
+    src: url(../fonts/PT_Sans-Web-Regular.ttf);
+}
 
-	--color-error:       226, 131, 174;  /*dark pink*/
-	--color-black:       0, 0, 0;        /*black*/
-	--color-dark-green:  42, 61, 47;     /*dark green*/
-	--color-blue:        19, 193, 247;   /*blue blue*/
-	--color-yellowgreen: 152, 195, 121;  /*yellowgreen*/
+:root {
+	--color-violet: #8c6ad2;
+	--color-sea: #0ca8a0;
+	--color-gray: #9b9b9b;
 
 	--box-shadow:
 		0 16px 24px 2px rgba(33,37,41,.02), 
@@ -22,18 +23,19 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.7;
-	font-family: Segoe UI, sans-serif;
+	font-family: PT-Sans-Regular;
 	font-size: 16px;
 	max-width: 1200px;
 	margin: auto;
 	padding: 20px;
 	background-color: #f8f9fa;
 }
-* {
-    box-sizing: border-box;
+*, :after, :before {
+    box-sizing: border-box; 
 }
 *::selection {
-	background: rgba(var(--theme-blue), 0.4);
+	background: rgba(10, 216, 216, 0.7);
+	border-radius: 10px;
 }
 
 
@@ -66,22 +68,22 @@ img {
 	box-shadow: var(--box-shadow);
 }
 h1 {
-	text-align: center;
-	margin-top: 20px;
 	font-size: 25px;
+	margin: 0;
+	text-align: left;
 }
 h2 {
 	margin: 5px 0px 15px 0px;
 	padding: 15px;
 	font-size: 20px;
-	color: #2c3e50;
+	color: var(--color-sea);
 	border-bottom: 1px solid #ddd;
 }
 h3 {
-	margin: 15px 0px 15px 0px;
-	padding: 10px;
-	color: #42b983;
+	margin: 0;
+	text-align: left;
 	font-size: 18px;
+    color: #444444;
 }
 h4 {
 	margin: 15px 0px 15px 0px;
@@ -126,10 +128,6 @@ HEADER
 .header__content {
 	padding: 0 50px;
 }
-.header__text {
-	margin: 0;
-	text-align: left;
-}
 
 
 /***************************************************
@@ -159,11 +157,6 @@ STRUCTURE
 .structure__content {
 	padding: 0 50px;
 }
-.structure__text {
-	margin: 0;
-	text-align: left;
-}
-
 
 /***************************************************
 LIST

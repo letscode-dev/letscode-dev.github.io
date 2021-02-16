@@ -39,7 +39,7 @@
 
 		<div v-for="itemCources in cources">
 
-			<div class="structure__container structure__shadow">
+			<div class="structure__container">
 				
 				<a
 					:href="itemCources.youtube"
@@ -50,7 +50,7 @@
 				</a>
 
 				<div class="structure__content">
-					<h3 class="structure__text" v-html="itemCources.title"></h3>
+					<h3 v-html="itemCources.title"></h3>
 
 					<div class="list__container">
 						<ul class="list__item-title">
