@@ -2,6 +2,7 @@
 const ARR_LINKS_MAIN = [
     { name: 'YouTube',          link: 'https://www.youtube.com/c/DevPandaren' },
     { name: 'GitHub',           link: 'https://github.com/dev-pandaren' },
+    { name: 'Справочник',       link: 'https://dev-pandaren.github.io/training' },
     { name: 'Telegram Channel', link: 'https://t.me/devpandaren' },
     { name: 'Telegram Chat',    link: 'https://t.me/devpandaren_chat' },
 ];
@@ -52,7 +53,7 @@ const ARR_COURCES = [
             { name: 'Курс',        link: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKkmf-c43pmhzH3otzUCl8f3' },
         ],
         youtube: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKkmf-c43pmhzH3otzUCl8f3',
-        level: 'Начальный / Средний / Продвинутый',
+        level: 'Все',
         time: null,
         img: 'img/courses/css.png',
     },

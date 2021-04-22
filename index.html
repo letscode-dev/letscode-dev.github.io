@@ -9,70 +9,67 @@
 <body>
 	<div id="root">
 
-		<div class="header__container">
-			
+        <!-- HEADER -->
+		<header class="header__container">
+
 			<div class="header__logo"></div>
 
 			<div class="header__content">
 				<h1 class="header__text">Dev Pandaren</h1>
 
 				<div class="list__container">
-					<ul class="list__item-title">
-					    <li v-for="item in linksMain" v-html="'⚡️ '+item.name"></li>
-					</ul>
-					<ul class="list__item-link">
-						<li v-for="item in linksMain">
-							<a
-								class="list__link"
-								:href="item.link"
-								target="_blank"
-								v-html="item.link"
-							></a>
-						</li>
-					</ul>
+                    <slot v-for="item in linksMain">
+                        <div v-html="'⚡️ '+item.name"></div>
+                        <a
+                            class="list__link"
+                            :href="item.link"
+                            target="_blank"
+                            v-html="item.link"
+                        ></a>
+                    </slot>
 				</div>
 
 			</div>
-		</div>
+		</header>
 
-		<h2>Курсы</h2>
+        <!-- COURSES -->
+        <section>
+            <h2>Курсы</h2>
 
-		<div v-for="itemCources in cources">
+            <div class="courses__container">
 
-			<div class="structure__container">
-				
-				<a
-					:href="itemCources.youtube"
-					class="structure__logo"
-					:style="'background-image: url('+itemCources.img+');'"
-					target="_blank"
-				>
-				</a>
+                <div class="courses__course" v-for="itemCources in cources">
+                    <a
+                        :href="itemCources.youtube"
+                        class="courses__logo"
+                        :style="'background-image: url('+itemCources.img+');'"
+                        target="_blank"
+                    >
+                    </a>
 
-				<div class="structure__content">
-					<h3 v-html="itemCources.title"></h3>
+                    <div class="courses__content">
+                        <h3 v-html="itemCources.title"></h3>
 
-					<div class="list__container">
-						<ul class="list__item-title">
-						    <li v-for="item in itemCources.links" v-html="'🔰 '+item.name"></li>
-						    <li>Уровень</li>
-						</ul>
-						<ul class="list__item-link">
-							<li v-for="item in itemCources.links">
-								<a
-									class="list__link"
-									:href="item.link"
-									target="_blank"
-									v-html="item.link"
-								></a>
-							</li>
-							<li v-html="itemCources.level"></li>
-						</ul>
-					</div>
+                        <div class="courses__links">
+                            <div v-for="item in itemCources.links">
+                                <span>🥥 </span>
+                                <a
+                                    class="courses__link"
+                                    :href="item.link"
+                                    target="_blank"
+                                    v-html="item.name"
+                                ></a>
+                            </div>
+                            <div class="courses__level-container">
+                                <span>Уровень: </span>
+                                <span v-html="itemCources.level" class="courses__level"></span>
+                            </div>
+                        </div>
 
-				</div>
-			</div>
-		</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 	</div>
 
