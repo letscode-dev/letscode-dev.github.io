@@ -7,73 +7,64 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-	<div id="root">
+    <div id="root">
 
-        <!-- HEADER -->
-		<header class="header__container">
-
-			<div class="header__logo"></div>
-
-			<div class="header__content">
-				<h1 class="header__text">Dev Pandaren</h1>
-
-				<div class="list__container">
-                    <slot v-for="item in linksMain">
-                        <div v-html="'⚡️ '+item.name"></div>
-                        <a
-                            class="list__link"
-                            :href="item.link"
-                            target="_blank"
-                            v-html="item.link"
-                        ></a>
-                    </slot>
-				</div>
-
-			</div>
-		</header>
-
-        <!-- COURSES -->
-        <section>
-            <h2>Курсы</h2>
-
-            <div class="courses__container">
-
-                <div class="courses__course" v-for="itemCources in cources">
+    <!-- HEADER -->
+    <header class="header__container">
+        <div class="header__logo"></div>
+        <div class="header__content">
+            <h1 class="header__text">Dev Pandaren</h1>
+            <div class="list__container">
+                <slot v-for="item in linksMain">
+                    <div v-html="'⚡️ '+item.name"></div>
                     <a
-                        :href="itemCources.youtube"
-                        class="courses__logo"
-                        :style="'background-image: url('+itemCources.img+');'"
+                        class="list__link"
+                        :href="item.link"
                         target="_blank"
-                    >
-                    </a>
+                        v-html="item.link"
+                    ></a>
+                </slot>
+            </div>
+        </div>
+    </header>
 
-                    <div class="courses__content">
-                        <h3 v-html="itemCources.title"></h3>
-
-                        <div class="courses__links">
-                            <div v-for="item in itemCources.links">
-                                <span>🥥 </span>
-                                <a
-                                    class="courses__link"
-                                    :href="item.link"
-                                    target="_blank"
-                                    v-html="item.name"
-                                ></a>
-                            </div>
-                            <div class="courses__level-container">
-                                <span>Уровень: </span>
-                                <span v-html="itemCources.level" class="courses__level"></span>
-                            </div>
+    <!-- COURSES -->
+    <section>
+        <h2>Курсы</h2>
+        <div class="courses__container">
+            <div class="courses__course" v-for="itemCources in cources">
+                <a
+                    :href="itemCources.youtube"
+                    class="courses__logo"
+                    :style="'background-image: url('+itemCources.img+');'"
+                    target="_blank"
+                >
+                </a>
+                <div class="courses__content">
+                    <h3 v-html="itemCources.title"></h3>
+                    <div class="courses__links">
+                        <div v-for="item in itemCources.links">
+                            <span>🥥 </span>
+                            <a
+                                class="courses__link"
+                                :href="item.link"
+                                target="_blank"
+                                v-html="item.name"
+                            ></a>
                         </div>
-
+                        <div class="courses__level-container">
+                            <span>Уровень: </span>
+                            <span v-html="itemCources.level" class="courses__level"></span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-	</div>
+    </div>
 
-	<script src="libs/vue.js"></script>
-	<script src="js/vue.js"></script>
+    <script src="libs/vue.js"></script>
+    <script src="js/vue.js"></script>
 </body>
 </html>
