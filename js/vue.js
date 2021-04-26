@@ -7,7 +7,8 @@ const ARR_LINKS_MAIN = [
     { name: 'Telegram Chat',    link: 'https://t.me/devpandaren_chat' },
 ];
 
-// Продолжительность курса
+// Тип курса: type
+// Продолжительность курса: time
 
 const ARR_COURCES = [
     {
@@ -22,6 +23,7 @@ const ARR_COURCES = [
         level: 'Продвинутый',
         time: null,
         img: 'img/courses/react-star-wars.png',
+        type: 'Практика',
     },
     {
         title: 'Курс #2: JavaScript-практика (модульное приложение)',
@@ -34,6 +36,7 @@ const ARR_COURCES = [
         level: 'Средний',
         time: '3 часа 52 минуты',
         img: 'img/courses/js-modules-comics.png',
+        type: 'Практика',
     },
     {
         title: 'Курс #1: JavaScript-практика (простой проект)',
@@ -46,6 +49,7 @@ const ARR_COURCES = [
         level: 'Начальный',
         time: '2 часа 33 минуты',
         img: 'img/courses/js-guitar-shop.png',
+        type: 'Практика',
     },
     {
         title: 'Курс HTML5 и CSS3',
@@ -56,6 +60,7 @@ const ARR_COURCES = [
         level: 'Все',
         time: null,
         img: 'img/courses/css.png',
+        type: 'Теория',
     },
 ];
 
