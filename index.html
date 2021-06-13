@@ -17,7 +17,7 @@
             <h1 class="header__text">Dev Pandaren</h1>
             <div class="list__container">
                 <slot v-for="item in linksMain">
-                    <div v-html="'⚡️ '+item.name"></div>
+                    <div v-html="item.name"></div>
                     <a
                         class="list__link"
                         :href="item.link"
