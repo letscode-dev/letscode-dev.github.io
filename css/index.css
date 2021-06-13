@@ -205,7 +205,7 @@ COURSES
     justify-content: space-between;
 	padding: 20px;
 }
-.courses__level-container {
+.courses__comment-container {
     margin-top: 20px;
 }
 .courses__level {
@@ -213,6 +213,10 @@ COURSES
     border-radius: 3px;
     padding: 1px 5px;
     color: rgba(0,0,0,.7);
+}
+.courses__time {
+    color: #696880;
+	font-weight: 600;
 }
 
 /***************************************************

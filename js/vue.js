@@ -21,7 +21,7 @@ const ARR_COURCES = [
         ],
         youtube: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKkQAWKDu2NdFt5Cx38B-A3i',
         level: 'Продвинутый',
-        time: null,
+        time: '15 часов 35 минут',
         img: 'img/courses/react-star-wars.png',
         type: 'Практика',
     },
