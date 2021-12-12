@@ -33,7 +33,7 @@
     <section>
         <h2>Курсы</h2>
         <div class="courses__container">
-            <div class="courses__course" v-for="itemCources in cources">
+            <div class="courses__course" v-for="itemCources in sectionCources">
                 <a
                     :href="itemCources.youtube"
                     class="courses__logo"
@@ -59,6 +59,33 @@
                             <span v-html="itemCources.time" class="courses__time"></span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTICLES -->
+    <section>
+        <h2>Статьи</h2>
+        <div class="courses__container">
+            <div class="courses__course" v-for="itemArticles in sectionArticles">
+                <a
+                    :href="itemArticles.link"
+                    class="courses__logo"
+                    :style="'background-image: url('+itemArticles.img+');'"
+                    target="_blank"
+                >
+                </a>
+                <div class="courses__content">
+                    <h3>
+                        <a
+                            class="courses__link"
+                            :href="itemArticles.link"
+                            target="_blank"
+                            v-html="itemArticles.title"
+                        >
+                        </a>
+                    </h3>
                 </div>
             </div>
         </div>

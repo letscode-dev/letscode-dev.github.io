@@ -9,8 +9,8 @@
 
 :root {
 	--color-violet: #8c6ad2;
-	--color-sea: #0ca8a0;
-	--color-gray: #9b9b9b;
+	--color-sea:    #0ca8a0;
+	--color-gray:   #9b9b9b;
 
 	--box-shadow:
 		0 16px 24px 2px rgba(33,37,41,.02),
@@ -166,6 +166,10 @@ LIST
 }
 .courses__link:hover {
 	color: #000;
+}
+
+h3 .courses__link {
+	text-decoration: none;
 }
 
 /***************************************************
