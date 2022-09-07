@@ -1,8 +1,23 @@
 
+/*
+Let's Code
+› Сайт      https://letscode-dev.github.io
+› YouTube   https://www.youtube.com/c/letscode-dev
+› GitHub    https://github.com/letscode-dev
+› Методичка https://letscode-dev.github.io/training
+› Codepen   https://codepen.io/letscode-dev
+
+› Telegram Channel https://t.me/devpandaren
+› Telegram Chat    https://t.me/devpandaren_chat
+
+› Донаты https://yoomoney.ru/to/410011498839870
+*/
+
 const ARR_LINKS_MAIN = [
+    { name: '› Сайт',             link: 'https://letscode-dev.github.io' },
     { name: '› YouTube',          link: 'https://www.youtube.com/c/letscode-dev' },
     { name: '› GitHub',           link: 'https://github.com/letscode-dev' },
-    { name: '› Справочник',       link: 'https://letscode-dev.github.io/training' },
+    { name: '› Методичка',        link: 'https://letscode-dev.github.io/training' },
     { name: '› Codepen',          link: 'https://codepen.io/letscode-dev' },
 
     { name: '› Telegram Channel', link: 'https://t.me/devpandaren' },
