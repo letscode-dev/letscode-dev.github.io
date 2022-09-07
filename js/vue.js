@@ -1,14 +1,14 @@
 
 const ARR_LINKS_MAIN = [
-    { name: '⚡️ YouTube',          link: 'https://www.youtube.com/c/LetsCodeDev' },
-    { name: '⚡️ GitHub',           link: 'https://github.com/letscode-dev' },
-    { name: '⚡️ Справочник',       link: 'https://letscode-dev.github.io/training' },
+    { name: '› YouTube',          link: 'https://www.youtube.com/c/letscode-dev' },
+    { name: '› GitHub',           link: 'https://github.com/letscode-dev' },
+    { name: '› Справочник',       link: 'https://letscode-dev.github.io/training' },
+    { name: '› Codepen',          link: 'https://codepen.io/letscode-dev' },
 
-    { name: '⚡️ Codepen',          link: 'https://codepen.io/DevPandaren' },
-    { name: '⭐️ Telegram Channel', link: 'https://t.me/devpandaren' },
-    { name: '⭐️ Telegram Chat',    link: 'https://t.me/devpandaren_chat' },
+    { name: '› Telegram Channel', link: 'https://t.me/devpandaren' },
+    { name: '› Telegram Chat',    link: 'https://t.me/devpandaren_chat' },
 
-    { name: '⭐️ Донаты',           link: 'https://yoomoney.ru/to/410011498839870' },
+    { name: '› Донаты',           link: 'https://yoomoney.ru/to/410011498839870' },
 ];
 
 // Тип курса: type
