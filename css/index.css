@@ -213,6 +213,7 @@ COURSES
 }
 .courses__comment-container {
     margin-top: 20px;
+    color: #000;
 }
 .courses__level {
     background-color: rgba(179, 183, 104,.4);
