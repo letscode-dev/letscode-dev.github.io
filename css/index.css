@@ -165,6 +165,7 @@ LIST
 	color: #666666;
 	transition: 0.4s;
     line-height: 2;
+    text-decoration: none;
 }
 .courses__link:hover {
 	color: #000;
@@ -204,6 +205,7 @@ COURSES
 }
 .courses__links {
     margin-top: 20px;
+    color: #000;
 }
 .courses__content {
     display: flex;
