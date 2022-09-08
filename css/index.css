@@ -29,6 +29,7 @@ body {
 	padding: 20px;
 	background-color: #181c28;
 	color: #fff;
+	background-image: linear-gradient(to right bottom,#051937,#162454,#312d70,#533389,#7a359f);
 }
 *, :after, :before {
     box-sizing: border-box;
@@ -125,14 +126,14 @@ HEADER
     margin-top: 30px;
 }
 .header__logo {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	flex-shrink: 0;
 	background-image: url(../img/logo.png);
 	background-position: center center;
 	background-size: cover;
-	/*box-shadow: var(--box-shadow);*/
-	/*border-radius: 50%;*/
+	box-shadow: var(--box-shadow);
+	border-radius: 50%;
 }
 .header__content {
 	padding: 0 50px;
@@ -184,7 +185,7 @@ COURSES
     gap: 30px;
 }
 .courses__course {
-	background-color: rgba(255, 255, 255, .9);
+	background-color: #fff;
 	border-radius: .25rem;
 	box-shadow:
 		0 16px 24px 2px rgba(33,37,41,.02),
