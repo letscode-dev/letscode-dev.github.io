@@ -68,6 +68,17 @@ const ARR_COURCES = [
         type: 'Практика',
     },
     {
+        title: 'Курс Git / GitHub',
+        links: [
+            { name: 'Курс на YouTube',           link: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKnPyWTcz_GEQo5drpr_1UH2' },
+        ],
+        youtube: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKnPyWTcz_GEQo5drpr_1UH2',
+        level: 'Начальный',
+        time: null,
+        img: PATH_IMG+'courses/git.png',
+        type: 'Практика',
+    },
+    {
         title: 'Курс HTML5 и CSS3',
         links: [
             { name: 'Курс на YouTube', link: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKkmf-c43pmhzH3otzUCl8f3' },
