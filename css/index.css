@@ -29,7 +29,7 @@ body {
 	padding: 20px;
 	background-color: #181c28;
 	color: #fff;
-	background-image: linear-gradient(to right bottom,#051937,#162454,#312d70,#533389,#7a359f);
+	background-image: linear-gradient(to top right,#051937,#162454,#312d70,#533389,#7a359f);
 }
 *, :after, :before {
     box-sizing: border-box;
