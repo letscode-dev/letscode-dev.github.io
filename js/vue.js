@@ -81,7 +81,17 @@ const ARR_COURCES = [
         type: 'Практика',
     },
     {
-        title: 'Курс HTML5 и CSS3',
+        title: 'Frontend (Common Playlist)',
+        links: [
+            { name: 'Курс на YouTube',           link: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKnuc0VJqAajaRffTjdLA-jQ' },
+        ],
+        youtube: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKnuc0VJqAajaRffTjdLA-jQ',
+        level: 'Все',
+        img: PATH_IMG+'courses/frontend.jpg',
+        type: 'Теория и практика',
+    },
+    {
+        title: 'HTML5 и CSS3 (Common Playlist)',
         links: [
             { name: 'Курс на YouTube', link: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKkmf-c43pmhzH3otzUCl8f3' },
         ],
