@@ -91,7 +91,7 @@ const ARR_COURCES = [
         type: 'Теория и практика',
     },
     {
-        title: 'HTML5 и CSS3 (Common Playlist)',
+        title: 'Курс HTML5 и CSS3',
         links: [
             { name: 'Курс на YouTube', link: 'https://www.youtube.com/playlist?list=PL7cTIfGFrdKkmf-c43pmhzH3otzUCl8f3' },
         ],
