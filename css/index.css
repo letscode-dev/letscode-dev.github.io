@@ -27,9 +27,8 @@ body {
 	max-width: 1200px;
 	margin: auto;
 	padding: 20px;
-	background-color: #181c28;
-	color: #fff;
-	background-image: linear-gradient(to top right,#051937,#162454,#312d70,#533389,#7a359f);
+	color: #2b2b2b;
+	background-color: #f8f9fa;
 }
 *, :after, :before {
     box-sizing: border-box;
@@ -132,9 +131,12 @@ HEADER
 	background-image: url(../img/logo.png);
 	background-position: center center;
 	background-size: cover;
-	box-shadow: var(--box-shadow);
-	border-radius: 50%;
+	box-shadow: 
+		0 2px 24px black,
+		10px 10px 0 0 #e51ced;
+	border-radius: 3px;
 }
+
 .header__content {
 	padding: 0 50px;
 }
@@ -153,19 +155,25 @@ LIST
 .list__link {
     padding-left: 20px;
     display: block;
-	color: #fff;
+	color: #4b4b4d;
 	transition: 0.4s;
-	opacity: .7;
+	text-decoration: none;
+}
+.list__link::after {
+	content: '';
+	display: block;
+	border-bottom: 1px dashed #4b4b4d;
+	opacity: .45;
 }
 .list__link:hover {
-	/*color: #000;*/
+	color: #6342f5;
 	opacity: 1;
 }
 
 .courses__link {
 	color: #666666;
 	transition: 0.4s;
-    line-height: 2;
+    line-height: 5px;
     text-decoration: none;
 }
 .courses__link:hover {
@@ -256,6 +264,7 @@ ADAPTIVE
     }
     .header__logo {
         margin: 0;
+        margin-bottom: 20px;
     }
 }
 
