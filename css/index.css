@@ -20,7 +20,6 @@
 
 body {
 	margin: 0;
-	padding: 0;
 	line-height: 1.7;
 	font-family: PT-Sans-Regular;
 	font-size: 16px;
@@ -115,6 +114,13 @@ section {
     margin-top: 20px;
 }
 
+
+/***************************************************
+COMMON
+/***************************************************/
+.wrapper {
+	margin-bottom: 30px;
+}
 
 /***************************************************
 HEADER
@@ -269,6 +275,9 @@ ADAPTIVE
 }
 
 @media screen and (max-width: 500px) {
+	.header__container {
+		margin-top: 10px;
+	}
     .list__container {
         grid-template-columns: 1fr;
     }
@@ -277,5 +286,12 @@ ADAPTIVE
     }
     .courses__container {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .header__logo {
+    	margin: auto;
+    	margin-bottom: 30px;
+    }
+    .header__text {
+    	display: none
     }
 }
