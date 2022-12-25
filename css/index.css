@@ -11,6 +11,7 @@
 	--color-violet: #8c6ad2;
 	--color-sea:    #0ca8a0;
 	--color-gray:   #9b9b9b;
+	--border-radius: 5px;
 
 	--box-shadow:
 		0 16px 24px 2px rgba(33,37,41,.02),
@@ -70,7 +71,7 @@ TAGS
 /***************************************************/
 img {
 	display: block;
-	border-radius: .25rem;
+	border-radius: var(--border-radius);
 	box-shadow: var(--box-shadow);
 }
 h1 {
@@ -140,7 +141,7 @@ HEADER
 	box-shadow: 
 		0 2px 24px black,
 		10px 10px 0 0 #e51ced;
-	border-radius: 3px;
+	border-radius: var(--border-radius);
 }
 
 .header__content {
@@ -200,7 +201,7 @@ COURSES
 }
 .courses__course {
 	background-color: #fff;
-	border-radius: .25rem;
+	border-radius: var(--border-radius);
 	box-shadow:
 		0 16px 24px 2px rgba(33,37,41,.02),
 		0 6px 30px 5px rgba(33,37,41,.04),
@@ -213,7 +214,7 @@ COURSES
 	background-position: center center;
 	background-size: cover;
 	transition: 1s;
-    border-radius: .25rem .25rem 0 0;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 .courses__logo:hover {
 	filter: grayscale(150%) opacity(50%);
@@ -234,7 +235,7 @@ COURSES
 }
 .courses__level {
     background-color: rgba(179, 183, 104,.4);
-    border-radius: 3px;
+    border-radius: var(--border-radius);
     padding: 1px 5px;
     color: rgba(0,0,0,.7);
 }
