@@ -216,6 +216,9 @@ COURSES
 	transition: 1s;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
+.courses__logo_gray {
+	filter: grayscale(35%);
+}
 .courses__logo:hover {
 	filter: grayscale(150%) opacity(50%);
 }
