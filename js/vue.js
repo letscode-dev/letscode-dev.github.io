@@ -1,17 +1,20 @@
 
 /*
 Let's Code
-› Сайт                   https://letscode-dev.github.io
-› YouTube                https://www.youtube.com/c/letscode-dev
-› GitHub                 https://github.com/letscode-dev
-› Методичка              https://letscode-dev.github.io/training
-› Codepen                https://codepen.io/letscode-dev
-› CodeSandbox            https://codesandbox.io/u/letscode-dev
-› Telegram Channel       https://t.me/letscode_channel
-› Telegram Chat          https://t.me/letscode_chat
-› Донаты                 https://yoomoney.ru/to/410011498839870
+› Сайт               https://letscode-dev.github.io
+› YouTube            https://www.youtube.com/c/letscode-dev
+› GitHub             https://github.com/letscode-dev
+› Методичка          https://letscode-dev.github.io/training
+› Codepen            https://codepen.io/letscode-dev
+› CodeSandbox        https://codesandbox.io/u/letscode-dev
+› Telegram Channel   https://t.me/letscode_channel
+› Telegram Chat      https://t.me/letscode_chat
+› Донаты             https://yoomoney.ru/to/410011498839870
 
-› IT-School              https://it-school58.github.io/
+- https://anton-sergeenkov.github.io - Портфолио
+- https://dev-commit.github.io       - Справочник
+- https://it-school58.github.io      - Школа программирования
+- https://vk.com/penza_web           - Веб-мастерская Panda
 */
 
 const ARR_LINKS_MAIN = [
