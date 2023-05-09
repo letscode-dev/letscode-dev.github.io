@@ -9,7 +9,7 @@ Let's Code
 › CodeSandbox        https://codesandbox.io/u/letscode-dev
 › Telegram Channel   https://t.me/letscode_channel
 › Telegram Chat      https://t.me/letscode_chat
-› Донаты             https://yoomoney.ru/to/410011498839870
+› Донаты             https://yoomoney.ru/to/4100118194273847
 
 - https://anton-sergeenkov.github.io - Портфолио
 - https://dev-commit.github.io       - Справочник
@@ -26,7 +26,7 @@ const ARR_LINKS_MAIN = [
     { name: '› CodeSandbox',      link: 'https://codesandbox.io/u/letscode-dev' },
     { name: '› Telegram Channel', link: 'https://t.me/letscode_channel' },
     { name: '› Telegram Chat',    link: 'https://t.me/letscode_chat' },
-    { name: '› Донаты',           link: 'https://yoomoney.ru/to/410011498839870' },
+    { name: '› Донаты',           link: 'https://yoomoney.ru/to/4100118194273847' },
 ];
 
 // Тип курса: type
