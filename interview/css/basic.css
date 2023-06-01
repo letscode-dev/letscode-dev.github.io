@@ -1,0 +1,60 @@
+
+:root {
+	--color-light:      #DAFCFF;
+	--color-blue-light: #81F4FD;
+	--color-violet:     #E35BE5;
+	--color-white:      #FFFFFF;
+
+	--transition: .4s;
+	--scrollbar-color: var(--color-black);
+	--selection-color: var(--color-sea-green-dark);
+}
+
+/***************************************************
+COMMON
+/***************************************************/
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+*::selection {
+	background: rgba(var(--selection-color), .4);
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+img {
+	display: block;
+	object-fit: contain;
+	object-position: center center;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: 500;
+}
+table {
+	border-collapse: collapse;
+}
+
+/***************************************************
+SCROLLBAR
+/***************************************************/
+* {
+	scrollbar-color: rgba(var(--scrollbar-color), .2) rgba(var(--scrollbar-color), .1);
+	scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba(var(--scrollbar-color), .2);
+	border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+	background-color: rgba(var(--scrollbar-color), .1);
+}
+::-webkit-scrollbar-corner {
+    background-color: rgba(var(--scrollbar-color), .7);
+}
