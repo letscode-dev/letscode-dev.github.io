@@ -82,22 +82,15 @@ MENU
 	text-shadow: 0 0 5px var(--color-black);
 }
 #starter-content .content-link {
-	color: var(--color-violet);
-	border-radius: 6px;
-	padding: 3px 10px;
-	font-size: 18px;
+	padding: 0px 7px;
+	font-size: 24px;
 	margin-top: 7px;
-	margin-left: 10px;
-	border: 1px solid var(--color-violet);
-	text-decoration: none;
-	background-color: var(--color-black);
-	opacity: .7;
-	background-image: url(../../img/source/youtube.png);
 	text-transform: uppercase;
 	transition: color .7s ease;
+	color: var(--color-white);
 }
 #starter-content .content-link:hover {
-	color: var(--color-white);
+	color: var(--color-blue-light);
 }
 
 #starter-content .logo-wrapper {
