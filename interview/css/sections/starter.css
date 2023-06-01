@@ -56,10 +56,6 @@ MENU
 #starter-content .content-wrapper {
 	width: 600px;
 }
-#starter-content .content-title {
-	flex-grow: 1;
-	width: 50%;
-}
 #starter-content .content-offer {
 	color: var(--color-white);
 	width: 500px;
@@ -67,11 +63,41 @@ MENU
 }
 #starter-content .content-title {
 	color: var(--color-blue-light);
-	font-family: PFFusionSansPro-Light;	
+	font-family: PFFusionSansPro-Light;
 	text-transform: uppercase;
 	line-height: 70px;
 	font-size: 55px;
 	width: 400px;
+}
+#starter-content .content-subtitle {
+	color: var(--color-blue-light);
+	font-size: 35px;
+	width: 600px;
+	color: var(--color-violet);
+	display: flex;
+	align-items: center;
+	opacity: .8;
+}
+#starter-content .content-subtitle div {
+	text-shadow: 0 0 5px var(--color-black);
+}
+#starter-content .content-link {
+	color: var(--color-violet);
+	border-radius: 6px;
+	padding: 3px 10px;
+	font-size: 18px;
+	margin-top: 7px;
+	margin-left: 10px;
+	border: 1px solid var(--color-violet);
+	text-decoration: none;
+	background-color: var(--color-black);
+	opacity: .7;
+	background-image: url(../../img/source/youtube.png);
+	text-transform: uppercase;
+	transition: color .7s ease;
+}
+#starter-content .content-link:hover {
+	color: var(--color-white);
 }
 
 #starter-content .logo-wrapper {
