@@ -107,3 +107,16 @@ MENU
 	width: 200px;
 	height: 200px;
 }
+
+#starter-content button {
+	padding: 5px 20px;
+	font-family: inherit;
+	background: none;
+	border: 1px solid var(--color-blue-light);
+	color: var(--color-blue-light);
+	text-transform: uppercase;
+	margin-top: 30px;
+	border-radius: 5px;
+	font-size: inherit;
+	cursor: pointer;
+}
