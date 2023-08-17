@@ -4,7 +4,7 @@ Let's Code
 › Сайт               https://letscode-dev.github.io
 › YouTube            https://www.youtube.com/c/letscode-dev
 › GitHub             https://github.com/letscode-dev
-› Методичка          https://letscode-dev.github.io/training
+› Методичка          https://letscode-dev.github.io/workbook
 › Codepen            https://codepen.io/letscode-dev
 › CodeSandbox        https://codesandbox.io/u/letscode-dev
 › Telegram Channel   https://t.me/letscode_channel
@@ -21,7 +21,7 @@ const ARR_LINKS_MAIN = [
     { name: '› Сайт',             link: 'https://letscode-dev.github.io' },
     { name: '› YouTube',          link: 'https://www.youtube.com/c/letscode-dev' },
     { name: '› GitHub',           link: 'https://github.com/letscode-dev' },
-    { name: '› Методичка',        link: 'https://letscode-dev.github.io/training' },
+    { name: '› Методичка',        link: 'https://letscode-dev.github.io/workbook' },
     { name: '› Codepen',          link: 'https://codepen.io/letscode-dev' },
     { name: '› CodeSandbox',      link: 'https://codesandbox.io/u/letscode-dev' },
     { name: '› Telegram Channel', link: 'https://t.me/letscode_channel' },
