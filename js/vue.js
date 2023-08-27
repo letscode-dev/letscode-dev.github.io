@@ -10,11 +10,7 @@ Let's Code
 › Telegram Channel   https://t.me/letscode_channel
 › Telegram Chat      https://t.me/letscode_chat
 › Донаты             https://yoomoney.ru/to/4100118194273847
-
-- https://anton-sergeenkov.github.io - Портфолио
-- https://dev-commit.github.io       - Справочник
-- https://it-school58.github.io      - Школа программирования
-- https://vk.com/penza_web           - Веб-мастерская Panda
+› Портфолио          https://anton-sergeenkov.github.io
 */
 
 const ARR_LINKS_MAIN = [
