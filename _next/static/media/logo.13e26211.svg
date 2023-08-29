@@ -7,9 +7,9 @@
 >
 	<defs>
 		<linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-			<stop offset="0%" stop-color="#d3e35e" />
-			<stop offset="40%" stop-color="#d3e35e" />
-			<stop offset="100%" stop-color="#d3e35e" />
+			<stop offset="0%" stop-color="#fff" />
+			<stop offset="40%" stop-color="#fff" />
+			<stop offset="100%" stop-color="#fff" />
 		</linearGradient>
 	</defs>
     <g
