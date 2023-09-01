@@ -1,0 +1,27 @@
+{
+  "name": "lets-code",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "gh-pages": "gh-pages -d out -t true",
+    "deploy": "npm run build && npm run gh-pages"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.6",
+    "@mui/material": "^5.14.6",
+    "classnames": "^2.3.2",
+    "dotenv": "^16.3.1",
+    "next": "13.4.13",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}

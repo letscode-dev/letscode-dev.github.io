@@ -1,0 +1,35 @@
+.wrapper {
+    padding: 50px;
+    font-size: 14px;
+    line-height: 1;
+
+    --width-title: 150px;
+    --width-link: 350px;
+    --width-gap: 15px;
+}
+.subtitle {
+    margin: 0;
+    padding: 0;
+}
+.ul {
+    /* width: calc(var(--width-title) + var(--width-link) + var(--width-gap)); */
+    /* margin: auto; */
+    margin: 0;
+    padding: 15px;
+}
+.listContainer {
+    display: flex;
+    gap: var(--width-gap);
+    margin-bottom: 5px;
+}
+.listTitle {
+    width: var(--width-title);
+}
+.listLink {
+    width: var(--width-link);
+    color: #3640b5;
+    text-decoration: none;
+}
+.ul li::marker {
+    color: gray;
+}
