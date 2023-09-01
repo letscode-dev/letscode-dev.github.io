@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[699],{8666:function(e,t,r){Promise.resolve().then(r.bind(r,7242))},7242:function(e,t,r){"use strict";r.r(t);var n=r(7437);t.default=()=>(0,n.jsxs)("div",{children:[(0,n.jsx)("h1",{}),(0,n.jsx)("h1",{}),(0,n.jsx)("h1",{children:"Let's Interview"}),(0,n.jsx)("div",{children:"Подготовка к интервью от школы программирования"}),(0,n.jsx)("a",{href:"https://letscode-dev.github.io/",target:"_blank",children:"Let's Code"}),(0,n.jsx)("button",{onClick:()=>{let e="https://api.telegram.org/bot".concat("6555260003:AAGr43kX4xwWsp8jVmtusbAbvrUhx0hZWio","/sendMessage?chat_id=").concat("272620381","&text=").concat("O brave new world");fetch(e).then(e=>e.json()).then(e=>console.log(e))},children:"Send"})]})},622:function(e,t,r){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var n=r(2265),o=Symbol.for("react.element"),s=Symbol.for("react.fragment"),c=Object.prototype.hasOwnProperty,i=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,l={key:!0,ref:!0,__self:!0,__source:!0};function a(e,t,r){var n,s={},a=null,f=null;for(n in void 0!==r&&(a=""+r),void 0!==t.key&&(a=""+t.key),void 0!==t.ref&&(f=t.ref),t)c.call(t,n)&&!l.hasOwnProperty(n)&&(s[n]=t[n]);if(e&&e.defaultProps)for(n in t=e.defaultProps)void 0===s[n]&&(s[n]=t[n]);return{$$typeof:o,type:e,key:a,ref:f,props:s,_owner:i.current}}t.Fragment=s,t.jsx=a,t.jsxs=a},7437:function(e,t,r){"use strict";e.exports=r(622)}},function(e){e.O(0,[971,596,744],function(){return e(e.s=8666)}),_N_E=e.O()}]);
