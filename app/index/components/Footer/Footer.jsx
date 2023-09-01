@@ -1,5 +1,5 @@
 import cn from 'classnames';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 import logo from './img/logo.svg';
 
@@ -9,14 +9,14 @@ const Footer = () => {
     return (
         <div className={styles.wrapper}>
             <div className={cn(styles.container, 'section')}>
-                <Image
+                {/* <Image
                     src={logo}
                     alt="Logo Lets Code"
                     priority
                     className={styles.logo}
-                />
+                /> */}
 
-                Школа Frontend-разработки "Let's Code"
+                Let's Code. Школа Frontend-разработки, 2023
             </div>
         </div>
     )
