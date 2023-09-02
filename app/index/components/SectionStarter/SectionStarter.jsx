@@ -18,15 +18,15 @@ const SectionStarter = () => {
                         className={styles.logo}
                     />
                 </div>
-                <div>
+                <div className={styles.containerContent}>
                     <h1 className={styles.h1}>Школа frontend-разработки</h1>
                     <h2 className={styles.h2}>Let's Code</h2>
                     <div className={styles.containerChips}>
-                        <div>
+                        <div className={styles.categoryChips}>
                             <Chip className={styles.chip}>Школа программирования</Chip>
                             <Chip className={styles.chip}>Курсы</Chip>
                         </div>
-                        <div>
+                        <div className={styles.categoryChips}>
                             <Chip className={styles.chip}>Менторство</Chip>
                             <Chip className={styles.chip}>Подготовка к интервью</Chip>
                         </div>

@@ -1,7 +1,8 @@
 .wrapper {
     --text-shadow-header: .5px .5px 2px var(--color-gray-medium);
+    --spacing: 40px;
 
-    background-color: var(--color-black-blue);
+    background-color: #000;
     background-image: url(./img/bg.png);
     background-size: cover;
     background-position: left bottom;
@@ -16,48 +17,96 @@
     padding: var(--padding) 40px;
     padding-top: calc(var(--padding) + var(--height-header));
 }
-.logo {
-    width: 200px;
-    height: 200px;
-    opacity: .7;
-}
 .containerLogo {
+    /* border: 1px solid yellowgreen; */
     margin-right: 70px;
     margin-left: -200px;
     user-select: none;
-}
-.containerChips {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
+
+    .logo {
+        width: 200px;
+        height: 200px;
+        opacity: .7;
+    }
 }
 
-.chip {
-    margin-right: 10px;
-    margin-bottom: 10px;
+.containerContent {
+    /* border: 1px solid yellowgreen; */
 }
-.chip:last-child {
-    margin-right: 0;
+
+.containerChips {
+    margin-top: var(--spacing);
+
+    .chip {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .chip:last-child {
+        margin-right: 0;
+    }
 }
 
 .h1 {
     margin: 0;
-    color: #000;
-    text-transform: uppercase;
-    white-space: nowrap;
-    font-family: var(--font-roboto-light);
-    text-shadow: var(--text-shadow-header);
-    font-size: 25px;
-    background-color: var(--color-yellow-darker);
     padding: 0 10px;
     border-radius: 5px;
+    font-size: 25px;
+    font-family: var(--font-roboto-light);
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #000;
+    text-shadow: var(--text-shadow-header);
+    background-color: var(--color-yellow-darker);
 }
 .h2 {
     margin: 0;
-    color: var(--color-gray-light);
-    text-transform: uppercase;
-    white-space: nowrap;
-    font-family: var(--font-roboto-light);
-    text-shadow: var(--text-shadow-header);
+    margin-top: 5px;
     font-size: 25px;
+    font-family: var(--font-roboto-light);
+    text-transform: uppercase;
+    color: var(--color-gray-light);
+    white-space: nowrap;
+    text-shadow: var(--text-shadow-header);
+}
+
+/***************************************************
+ADAPTIVE
+/***************************************************/
+@media screen and (max-width: 900px) {
+    .containerLogo {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .container {
+        flex-direction: column;
+        padding: 60px;
+        padding-top: calc(60px + var(--height-header));
+    }
+    .containerLogo {
+        margin: 0;
+        margin-bottom: var(--spacing);
+
+        .logo {
+            width: 170px;
+            height: 170px;
+        }
+    }
+    .containerChips {
+        .chip {
+            font-size: 13px;
+        }
+        .categoryChips {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .h1 {
+        font-size: 20px;
+    }
+    .h2 {
+        font-size: 20px;
+        text-align: center;
+    }
 }
