@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: flex-start;
     border-radius: var(--border-radius);
-    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    box-shadow: var(--box-shadow-flat);
     padding: 20px;
     background-color: var(--color-yellow-opacity-1);
     border: 1px solid var(--color-yellow-opacity-3);

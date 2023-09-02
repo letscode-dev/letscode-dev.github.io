@@ -12,8 +12,6 @@
     padding: 0;
 }
 .ul {
-    /* width: calc(var(--width-title) + var(--width-link) + var(--width-gap)); */
-    /* margin: auto; */
     margin: 0;
     padding: 15px;
 }
@@ -27,9 +25,9 @@
 }
 .listLink {
     width: var(--width-link);
-    color: #3640b5;
+    color: var(--color-blue);
     text-decoration: none;
 }
 .ul li::marker {
-    color: gray;
+    color: var(--color-gray);
 }
