@@ -6,9 +6,8 @@
     height: var(--height-header);
     display: flex;
     align-items: center;
-    background-color: #000;
+    background-color: var(--color-black-opacity-7);
     box-shadow: var(--box-shadow);
-    opacity: .65;
 }
 .list {
     display: flex;
@@ -24,7 +23,6 @@
     margin-right: 0;
 }
 .item a {
-    color: #fff;
     text-decoration: none;
 }
 .logo {
@@ -47,8 +45,8 @@
     opacity: .9;
     transition: .7s;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, .2);
+    background-color: var(--color-white-opacity-2);
 }
 .messager:hover {
-    background-color: rgba(255, 255, 255, .4);
+    filter: invert(30%);
 }

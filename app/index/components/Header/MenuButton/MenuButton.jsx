@@ -2,9 +2,11 @@ import Button from '@mui/material/Button';
 
 export const ButtonStyles = {
     textTransform: "none",
-    color: "#fff",
+    color: "#edeeef",
     fontFamily: "var(--font-roboto-regular)"
 }
+
+import styles from './MenuButton.module.css';
 
 const MenuButton = (props) => {
     const { className } = props;
@@ -16,7 +18,12 @@ const MenuButton = (props) => {
             variant="text"
             sx={ButtonStyles}
         >
-            {props.children}
+            <span
+                style={{color: ButtonStyles.color}}
+                className={styles.text}
+            >
+                {props.children}
+            </span>
         </Button>
     )
 }
