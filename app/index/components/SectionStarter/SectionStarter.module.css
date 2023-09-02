@@ -110,3 +110,9 @@ ADAPTIVE
         text-align: center;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding-top: 60px
+    }
+}

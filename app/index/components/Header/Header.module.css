@@ -50,3 +50,12 @@
 .messager:hover {
     filter: invert(30%);
 }
+
+/***************************************************
+ADAPTIVE
+/***************************************************/
+@media screen and (max-width: 600px) {
+    .container {
+        display: none;
+    }
+}
