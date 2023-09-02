@@ -4,6 +4,6 @@
 .link {
     font-size: 14px;
     font-family: var(--font-roboto-light);
-    color: #2b2b2b;
+    color: var(--color-black-lighter);
     font-size: 13px;
 }

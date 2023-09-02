@@ -6,7 +6,7 @@
     height: 60px;
     align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, .7);
+    color: var(--color-gray);
     font-size: 14px;
     padding: 0;
 }

@@ -1,5 +1,7 @@
 .wrapper {
-    background-color: #030811;
+    --text-shadow-header: .5px .5px 2px var(--color-gray-medium);
+
+    background-color: var(--color-black-blue);
     background-image: url(./img/bg.png);
     background-size: cover;
     background-position: left bottom;
@@ -7,12 +9,12 @@
 }
 .container {
     --padding: 150px;
+
     display: flex;
     justify-content: center;
     align-items: center;
     padding: var(--padding) 40px;
     padding-top: calc(var(--padding) + var(--height-header));
-    /* border: 1px solid yellowgreen; */
 }
 .logo {
     width: 200px;
@@ -23,10 +25,6 @@
     margin-right: 70px;
     margin-left: -200px;
     user-select: none;
-    /* border: 1px solid yellowgreen; */
-}
-.containerContent {
-    /* border: 1px solid yellowgreen; */
 }
 .containerChips {
     display: flex;
@@ -48,18 +46,18 @@
     text-transform: uppercase;
     white-space: nowrap;
     font-family: var(--font-roboto-light);
-    text-shadow: .5px .5px 2px #6c6c6c;
+    text-shadow: var(--text-shadow-header);
     font-size: 25px;
-    background-color: #d3e35e;
+    background-color: var(--color-yellow-darker);
     padding: 0 10px;
     border-radius: 5px;
 }
 .h2 {
     margin: 0;
-    color: #eeeeee;
+    color: var(--color-gray-light);
     text-transform: uppercase;
     white-space: nowrap;
     font-family: var(--font-roboto-light);
-    text-shadow: .5px .5px 2px #6c6c6c;
+    text-shadow: var(--text-shadow-header);
     font-size: 25px;
 }

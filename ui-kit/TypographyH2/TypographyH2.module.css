@@ -12,5 +12,5 @@
     font-family: var(--font-roboto-thin);
     font-size: 17px;
     border-radius: 16px;
-    background-color: #2b2b2b;
+    background-color: var(--color-black-lighter);
 }

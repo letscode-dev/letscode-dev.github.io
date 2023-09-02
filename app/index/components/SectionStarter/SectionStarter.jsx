@@ -18,7 +18,7 @@ const SectionStarter = () => {
                         className={styles.logo}
                     />
                 </div>
-                <div className={styles.containerContent}>
+                <div>
                     <h1 className={styles.h1}>Школа frontend-разработки</h1>
                     <h2 className={styles.h2}>Let's Code</h2>
                     <div className={styles.containerChips}>
