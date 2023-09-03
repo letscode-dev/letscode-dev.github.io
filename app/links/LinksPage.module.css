@@ -1,33 +1,38 @@
 .wrapper {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+.listContainer {
+    min-width: 400px;
+    margin-bottom: 10px;
+    padding: 10px;
     font-size: 14px;
     line-height: 1;
-
-    --width-title: 150px;
-    --width-link: 350px;
-    --width-gap: 15px;
+    background-color: #fff;
+    box-shadow: var(--box-shadow-flat);
 }
-.subtitle {
+.h4 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    font-family: var(--font-roboto-regular);
+}
+.list {
     margin: 0;
     padding: 0;
 }
-.ul {
-    margin: 0;
-    padding: 15px;
-}
-.listContainer {
+.listItem {
     display: flex;
-    gap: var(--width-gap);
-    margin-bottom: 5px;
-}
-.listTitle {
-    width: var(--width-title);
-}
-.listLink {
-    width: var(--width-link);
-    color: var(--color-blue);
-    text-decoration: none;
-}
-.ul li::marker {
-    color: var(--color-gray);
+    gap: 5px;
+    margin: 0;
+    padding: 5px 0;
+    list-style-type: none;
+
+    .listLink {
+        color: var(--color-blue);
+        text-decoration: none;
+    }
 }

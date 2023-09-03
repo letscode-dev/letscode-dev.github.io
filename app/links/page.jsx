@@ -6,21 +6,19 @@ const LinksPage = () => {
     return (
         <div className={styles.wrapper}>
             {LINKS.map((linkItem, linkIndex) => (
-                <div key={linkIndex}>
-                    <h4 className={styles.subtitle}>{linkItem.name}</h4>
-                    <ul className={styles.ul}>
+                <div className={styles.listContainer} key={linkIndex}>
+                    <h4 className={styles.h4}>{linkItem.name}</h4>
+                    <ul className={styles.list}>
                         {linkItem.items.map((themeItem, themeIndex) => (
-                            <li key={themeIndex}>
-                                <div className={styles.listContainer}>
-                                    <span className={styles.listTitle}>{themeItem.title}</span>
-                                    <a
-                                        className={styles.listLink}
-                                        href={themeItem.link}
-                                        target="_blank"
-                                    >
-                                        {themeItem.link}
-                                    </a>
-                                </div>
+                            <li key={themeIndex} className={styles.listItem}>
+                                <span>{themeItem.title}</span>
+                                <a
+                                    className={styles.listLink}
+                                    href={themeItem.link}
+                                    target="_blank"
+                                >
+                                    {themeItem.link}
+                                </a>
                             </li>
                         ))}
                     </ul>
