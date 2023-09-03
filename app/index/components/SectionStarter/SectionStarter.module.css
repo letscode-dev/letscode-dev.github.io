@@ -18,7 +18,6 @@
     padding-top: calc(var(--padding) + var(--height-header));
 }
 .containerLogo {
-    /* border: 1px solid yellowgreen; */
     margin-right: 70px;
     margin-left: -200px;
     user-select: none;
@@ -29,11 +28,7 @@
         opacity: .7;
     }
 }
-
-.containerContent {
-    /* border: 1px solid yellowgreen; */
-}
-
+.containerContent {}
 .containerChips {
     margin-top: var(--spacing);
 

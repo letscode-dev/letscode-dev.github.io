@@ -16,7 +16,6 @@ const MenuSelected = (props) => {
     const { title, items } = props
 
     const [anchorEl, setAnchorEl] = useState(null)
-
     const open = Boolean(anchorEl)
 
     const handleClick = (event) => {
