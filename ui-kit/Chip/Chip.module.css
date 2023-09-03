@@ -3,7 +3,6 @@
     display: inline-block;
     padding: 4px 15px;
     font-size: 15px;
-    z-index: 10;
     color: #fff;
     font-family: var(--font-roboto-light);
     user-select: none;
@@ -15,6 +14,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 16px;
+    border-radius: var(--border-radius-chip);
     background: rgba(255, 255, 255, .1);
 }

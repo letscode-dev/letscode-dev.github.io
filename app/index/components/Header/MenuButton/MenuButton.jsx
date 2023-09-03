@@ -9,7 +9,7 @@ export const ButtonStyles = {
 import styles from './MenuButton.module.css';
 
 const MenuButton = (props) => {
-    const { className } = props;
+    const { className, children } = props;
 
     return (
         <Button
@@ -22,7 +22,7 @@ const MenuButton = (props) => {
                 style={{color: ButtonStyles.color}}
                 className={styles.text}
             >
-                {props.children}
+                {children}
             </span>
         </Button>
     )

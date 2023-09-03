@@ -2,15 +2,14 @@
     margin: 0;
     margin-bottom: 25px;
     user-select: none;
-}
-.h2 span {
-    display: inline-block;
-    /* background-image: linear-gradient(to right, #00305d, #1c2d63, #332765, #481d63, #5c095c); */
-    /* background-image: linear-gradient(to left bottom, #2b2b2b, #2b2b37, #282c43, #1e2e50, #00305d); */
-    color: #fff;
-    padding: 2px 15px;
-    font-family: var(--font-roboto-thin);
-    font-size: 17px;
-    border-radius: 16px;
-    background-color: var(--color-black-lighter);
+
+    .text {
+        display: inline-block;
+        padding: 2px 15px;
+        border-radius: var(--border-radius-chip);
+        font-size: 17px;
+        font-family: var(--font-roboto-thin);
+        color: #fff;
+        background-color: var(--color-black-lighter);
+    }
 }

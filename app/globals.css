@@ -16,6 +16,8 @@
 	--color-yellow-opacity-3: rgba(216, 228, 122, .3);
 
 	--border-radius: 5px;
+	--border-radius-chip: 16px;
+
 	--height-header: 60px;
 
 	--box-shadow-flat: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
@@ -33,7 +35,6 @@
 html {
 	scroll-behavior: smooth;
 }
-
 body {
 	margin: 0;
 	line-height: 1.7;
@@ -62,7 +63,6 @@ SCROLL
 }
 ::-webkit-scrollbar-thumb {
 	background-color: rgb(43, 36, 50);
-	/* border-radius: 2px; */
 }
 ::-webkit-scrollbar-track {
 	background-color: rgba(0,0,0,.1);
