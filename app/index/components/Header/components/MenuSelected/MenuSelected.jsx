@@ -13,7 +13,7 @@ import { ButtonStyles } from '../MenuButton/MenuButton'
 import styles from './MenuSelected.module.css'
 
 const MenuSelected = (props) => {
-    const { title, items } = props
+    const { item } = props
 
     const [anchorEl, setAnchorEl] = useState(null)
     const open = Boolean(anchorEl)
@@ -35,7 +35,7 @@ const MenuSelected = (props) => {
                 endIcon={<KeyboardArrowDownIcon />}
                 sx={ButtonStyles}
             >
-                {title}
+                {item.title}
             </Button>
 
             <Menu
@@ -43,16 +43,20 @@ const MenuSelected = (props) => {
                 open={open}
                 onClose={handleClose}
             >
-                {items.map((item, index) => (
+                {item.items.map((itemMenu, indexMenu) => (
                     <MenuItem
-                        key={index}
+                        key={indexMenu}
                         onClick={handleClose}
                         sx={{
                             padding: 0,
                             margin: 0
                         }}
                     >
-                        <a className={styles.link} href={item.href} target="_blank">
+                        <a
+                            className={styles.link}
+                            href={itemMenu.href}
+                            target="_blank"
+                        >
                             <Button
                                 size="small"
                                 fullWidth
@@ -66,7 +70,7 @@ const MenuSelected = (props) => {
                                     fontFamily: "var(--font-roboto-light)"
                                 }}
                             >
-                                {item.title}
+                                {itemMenu.title}
                             </Button>
                         </a>
                     </MenuItem>

@@ -19,7 +19,7 @@ const MenuButton = (props) => {
             sx={ButtonStyles}
         >
             <span
-                style={{color: ButtonStyles.color}}
+                style={{ color: ButtonStyles.color }}
                 className={styles.text}
             >
                 {children}

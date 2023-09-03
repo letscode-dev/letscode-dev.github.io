@@ -5,9 +5,9 @@ import { usePathname } from 'next/navigation'
 
 import MenuButton from '../MenuButton'
 
-import styles from './MenuItem.module.css'
+import styles from './MenuRoutes.module.css'
 
-const MenuItem = (props) => {
+const MenuRoutes = (props) => {
     const { item } = props
 
     const pathname = usePathname()
@@ -26,4 +26,4 @@ const MenuItem = (props) => {
     )
 }
 
-export default MenuItem
+export default MenuRoutes

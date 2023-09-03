@@ -1,0 +1,11 @@
+.link {
+    width: 100%;
+    text-decoration: none;
+    color: var(--color-black-lighter);
+}
+/* .icon {
+    width: 13px;
+    height: 13px;
+    opacity: .7;
+    color: var(--color-black-lighter);
+} */
