@@ -8,9 +8,9 @@ import MenuButton from '../MenuButton'
 import styles from './MenuItem.module.css'
 
 const MenuItem = (props) => {
-    const { item } = props;
+    const { item } = props
 
-    const pathname = usePathname();
+    const pathname = usePathname()
 
     return (
         <div className={styles.item}>

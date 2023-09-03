@@ -12,18 +12,18 @@ import MenuItem from '@mui/material/MenuItem'
 import styles from './Options.module.css'
 
 const Options = (props) => {
-    const { options } = props;
+    const { options } = props
         
-    const [anchorEl, setAnchorEl] = useState(null);
-    const open = Boolean(anchorEl);
+    const [anchorEl, setAnchorEl] = useState(null)
+    const open = Boolean(anchorEl)
 
     const handleClick = (event) => {
-        setAnchorEl(event.currentTarget);
-    };
+        setAnchorEl(event.currentTarget)
+    }
 
     const handleClose = () => {
-        setAnchorEl(null);
-    };
+        setAnchorEl(null)
+    }
 
     return (
         <div>
@@ -43,7 +43,7 @@ const Options = (props) => {
                 ))}
             </Menu>
         </div>
-    );
+    )
 }
 
 export default Options

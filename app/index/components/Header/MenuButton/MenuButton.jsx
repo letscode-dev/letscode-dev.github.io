@@ -9,7 +9,7 @@ export const ButtonStyles = {
 }
 
 const MenuButton = (props) => {
-    const { className, children } = props;
+    const { className, children } = props
 
     return (
         <Button

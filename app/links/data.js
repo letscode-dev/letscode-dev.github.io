@@ -36,4 +36,4 @@ export const LINKS = [
             { title: 'Донаты', link: 'https://yoomoney.ru/to/4100118194273847' },
         ],
     },
-];
+]
