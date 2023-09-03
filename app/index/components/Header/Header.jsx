@@ -17,7 +17,9 @@ const Header = () => {
 
             <ul className={styles.list}>
                 {CONFIG.map((item, index) => (
-                    <li className={styles.item} key={index}>{item}</li>
+                    <li className={styles.listItem} key={index}>
+                        {item}
+                    </li>
                 ))}
             </ul>
 
@@ -25,7 +27,7 @@ const Header = () => {
                 href="https://t.me/letscodedev_bot"
                 title="Telegram Bot"
                 target="_blank"
-                className={styles.messager}
+                className={styles.messenger}
             ></a>
         </div>
     )

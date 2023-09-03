@@ -6,33 +6,28 @@
     height: var(--height-header);
     display: flex;
     align-items: center;
-    background-color: var(--color-black-opacity-7);
     box-shadow: var(--box-shadow);
+    background-color: var(--color-black-opacity-7);
 }
 .list {
     display: flex;
     margin: 0;
     padding: 0;
     font-size: 14px;
+
+    .listItem {
+        padding: 15px;
+        list-style-type: none;
+    }
+    .listItem:last-child {
+        margin-right: 0;
+    }
+    .listItem a {
+        text-decoration: none;
+    }
 }
-.item {
-    list-style-type: none;
-    padding: 15px;
-}
-.item:last-child {
-    margin-right: 0;
-}
-.item a {
-    text-decoration: none;
-}
-.logo {
-    margin-left: 10px;
-    padding: 17px;
-    width: 70px;
-    height: 70px;
-    opacity: .2;
-}
-.messager {
+
+.messenger {
     display: block;
     width: 35px;
     height: 35px;
@@ -42,14 +37,22 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    border-radius: 50%;
     opacity: .9;
     transition: .7s;
-    border-radius: 50%;
-    background-color: var(--color-white-opacity-2);
+    background-color: var(--color-white-opacity-1);
 }
-.messager:hover {
+.messenger:hover {
     filter: invert(30%);
 }
+
+/* .logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    padding: 17px;
+    opacity: .2;
+} */
 
 /***************************************************
 ADAPTIVE
