@@ -3,12 +3,12 @@
 }
 .container {
     display: flex;
-    height: 60px;
-    align-items: center;
     justify-content: center;
-    color: var(--color-gray);
-    font-size: 14px;
+    align-items: center;
+    height: 60px;
     padding: 0;
+    font-size: 14px;
+    color: var(--color-gray);
 }
 /* .logo {
     width: 40px;

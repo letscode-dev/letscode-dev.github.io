@@ -9,7 +9,7 @@ import styles from './SectionStarter.module.css'
 const SectionStarter = () => {
     return (
         <div className={styles.wrapper}>
-            <div className={cn(styles.container, 'section')}>
+            <div className={cn(styles.container, "section")}>
                 <div className={styles.containerLogo}>
                     <Image
                         src={logo}

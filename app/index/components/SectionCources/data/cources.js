@@ -124,5 +124,3 @@ export const COURCES = [
         ],
     },
 ]
-
-// Тип курса: type

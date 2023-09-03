@@ -1,82 +1,81 @@
-.h3 {
-    margin: 0;
-    font-size: 15px;
-    font-family: var(--font-roboto-regular);
-}
-.options {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: #fff;
-    width: 35px;
-    height: 35px;
-    background-color: var(--color-white-opacity-2);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.description {
-    font-family: var(--font-roboto-light);
-    font-size: 14px;
-}
+.wrapper {}
+.container {}
 
-/* ------------------------------- */
-
-.courses__container {
+.coursesContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
-.courses__course {
+
+.courseContainer {
     position: relative;
-	background-color: #fff;
-	border-radius: var(--border-radius);
     padding: 10px;
-    background-image: var(--gradient-yellow-sea);
     border: 1px solid var(--color-yellow-darker);
+	border-radius: var(--border-radius);
+    background-image: var(--gradient-yellow-sea);
 }
-.courses__logo {
+
+.logo {
     display: block;
-	width: 100%;
-	height: 250px;
-	background-position: center center;
-	background-size: cover;
-	transition: 1s;
+    width: 100%;
+    height: 250px;
     border-radius: var(--border-radius);
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
 }
-.courses__logo:hover {
-	filter: grayscale(120%) opacity(70%);
+.logo:hover {
+    filter: grayscale(120%) opacity(70%);
 }
-.courses__links {
-    margin-top: 20px;
-    color: #000;
-}
-.courses__content {
+
+.contentContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 	padding: 10px;
     padding-bottom: 5px;
+
+    .h3 {
+        margin: 0;
+        font-size: 15px;
+        font-family: var(--font-roboto-regular);
+    }
+    .description {
+        font-size: 14px;
+        font-family: var(--font-roboto-light);
+    }
+    .options {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        color: #fff;
+        background-color: var(--color-white-opacity-2);
+    }
 }
 
 /***************************************************
 ADAPTIVE
 /***************************************************/
 @media screen and (max-width: 900px) {
-    .courses__container {
+    .coursesContainer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media screen and (max-width: 760px) {
-    .courses__container {
+    .coursesContainer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 500px) {
-    .courses__container {
+    .coursesContainer {
         grid-template-columns: repeat(1, 1fr);
     }
 }

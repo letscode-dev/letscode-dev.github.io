@@ -10,7 +10,7 @@ import styles from './SectionStarter.module.css'
 const SectionStarter = () => {
     return (
         <div className={styles.wrapper}>
-            <div className={cn(styles.container, 'section')}>
+            <div className={cn(styles.container, "section")}>
                 <h1>Let's Interview</h1>
                 <div>
                     Подготовка к интервью от школы программирования

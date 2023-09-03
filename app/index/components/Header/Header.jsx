@@ -56,7 +56,7 @@ const Header = () => {
             <a
                 href="https://t.me/letscodedev_bot"
                 title="Telegram Bot"
-                target='_blank'
+                target="_blank"
                 className={styles.messager}
             ></a>
         </div>

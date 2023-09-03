@@ -2,8 +2,7 @@
     color: #fff;
 }
 .link {
-    font-size: 14px;
+    font-size: 13px;
     font-family: var(--font-roboto-light);
     color: var(--color-black-lighter);
-    font-size: 13px;
 }

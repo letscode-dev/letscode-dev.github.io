@@ -38,7 +38,13 @@ const Options = (props) => {
             >
                 {options.map((item, index) => (
                     <MenuItem key={index} onClick={handleClose}>
-                        <a className={cn("link", styles.link)} href={item.link} target="_blank">{item.name}</a>
+                        <a
+                            className={cn("link", styles.link)}
+                            href={item.link}
+                            target="_blank"
+                        >
+                            {item.name}
+                        </a>
                     </MenuItem>
                 ))}
             </Menu>

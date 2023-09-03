@@ -12,13 +12,13 @@ import styles from './SectionPublications.module.css'
 const SectionPublications = () => {
     return (
         <div className={styles.wrapper} id="publications">
-            <div className={cn(styles.container, 'section')}>
+            <div className={cn(styles.container, "section")}>
                 <TypographyH2>Публикации</TypographyH2>
 
                 <div className={styles.publicationContainer}>
                     {PUBLICATIONS.map((itemPublication, indexPublication) => (
                         <div key={indexPublication} className={styles.publication}>
-                            <h3 className={cn(styles.h3, 'textGradient')}>
+                            <h3 className={cn(styles.h3, "textGradient")}>
                                 {itemPublication.title}
                             </h3>
 
@@ -34,9 +34,9 @@ const SectionPublications = () => {
                                 {itemPublication.description}
                             </div>
                             <a
-                                className={cn(styles.link, 'link')}
+                                className={cn(styles.link, "link")}
                                 href={itemPublication.link}
-                                target='_blank'
+                                target="_blank"
                             >
                                 <Button
                                     variant="outlined"
@@ -44,8 +44,8 @@ const SectionPublications = () => {
                                     size="small"
                                     endIcon={<OpenInNewOutlinedIcon />}
                                     sx={{
-                                        textTransform: 'none',
-                                        backgroundColor: '#fff'
+                                        textTransform: "none",
+                                        backgroundColor: "#fff"
                                     }}
                                 >
                                     Читать статью

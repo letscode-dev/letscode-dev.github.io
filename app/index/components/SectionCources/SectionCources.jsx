@@ -9,25 +9,28 @@ import styles from './SectionCources.module.css'
 const SectionCources = () => {
     return (
         <div className={styles.wrapper} id="cources">
-            <div className={cn(styles.container, 'section')}>
+            <div className={cn(styles.container, "section")}>
                 <TypographyH2>Бесплатные курсы</TypographyH2>
 
-                <div className={styles.courses__container}>
+                <div className={styles.coursesContainer}>
                     {COURCES.map((itemCources, indexCources) => (
-                        <div className={styles.courses__course} key={indexCources}>
+                        <div className={styles.courseContainer} key={indexCources}>
                             <a
                                 href={itemCources.youtube}
-                                className={styles.courses__logo}
+                                className={styles.logo}
                                 style={{
                                     backgroundImage: `url(${itemCources.img.src})`,
                                 }}
                                 target="_blank"
                             >
                             </a>
-                            <div className={styles.courses__content}>
-                                <h3 className={styles.h3}>{itemCources.stack}</h3>
-                                <div className={styles.description}>{itemCources.title}</div>
-
+                            <div className={styles.contentContainer}>
+                                <h3 className={styles.h3}>
+                                    {itemCources.stack}
+                                </h3>
+                                <div className={styles.description}>
+                                    {itemCources.title}
+                                </div>
                                 <div className={styles.options} title="Ссылки">
                                     <Options options={itemCources.links} />
                                 </div>
