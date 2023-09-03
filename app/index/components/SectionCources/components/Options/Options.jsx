@@ -1,15 +1,15 @@
 "use client"
 
-import { useState } from 'react';
-import cn from 'classnames';
+import { useState } from 'react'
+import cn from 'classnames'
 
-import IconButton from '@mui/material/IconButton';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import IconButton from '@mui/material/IconButton'
+import MoreVertIcon from '@mui/icons-material/MoreVert'
 
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
+import Menu from '@mui/material/Menu'
+import MenuItem from '@mui/material/MenuItem'
 
-import styles from './Options.module.css';
+import styles from './Options.module.css'
 
 const Options = (props) => {
     const { options } = props;
@@ -46,4 +46,4 @@ const Options = (props) => {
     );
 }
 
-export default Options;
+export default Options

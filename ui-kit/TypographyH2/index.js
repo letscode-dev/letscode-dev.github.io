@@ -1,1 +1,1 @@
-export { default } from './TypographyH2';
+export { default } from './TypographyH2'

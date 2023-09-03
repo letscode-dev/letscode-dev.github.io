@@ -40,6 +40,10 @@
     .chip {
         margin-right: 10px;
         margin-bottom: 10px;
+        padding: 4px 15px;
+        font-size: 13px;
+        color: #fff;
+        background-color: var(--color-white-opacity-1);
     }
     .chip:last-child {
         margin-right: 0;

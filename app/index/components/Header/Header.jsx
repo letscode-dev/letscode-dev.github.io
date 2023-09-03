@@ -1,13 +1,13 @@
-// import Image from 'next/image';
+// import Image from 'next/image'
 
-import { ROUTES, LINKS } from './roures';
-// import logo from './img/logo.svg';
+import { ROUTES, LINKS } from './roures'
+// import logo from './img/logo.svg'
 
 import MenuSelected from './MenuSelected'
-import MenuItem from './MenuItem';
-import MenuButton from './MenuButton';
+import MenuItem from './MenuItem'
+import MenuButton from './MenuButton'
 
-import styles from './Header.module.css';
+import styles from './Header.module.css'
 
 const Header = () => {
     return (
@@ -63,4 +63,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Header

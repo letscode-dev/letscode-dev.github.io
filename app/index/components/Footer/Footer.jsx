@@ -1,9 +1,9 @@
-import cn from 'classnames';
-// import Image from 'next/image';
+import cn from 'classnames'
+// import Image from 'next/image'
 
-import logo from './img/logo.svg';
+import logo from './img/logo.svg'
 
-import styles from './Footer.module.css';
+import styles from './Footer.module.css'
 
 const Footer = () => {
     return (
@@ -22,4 +22,4 @@ const Footer = () => {
     )
 }
 
-export default Footer;
+export default Footer

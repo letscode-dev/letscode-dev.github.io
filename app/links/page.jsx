@@ -1,6 +1,6 @@
-import { LINKS } from './data';
+import { LINKS } from './data'
 
-import styles from './LinksPage.module.css';
+import styles from './LinksPage.module.css'
 
 const LinksPage = () => {
     return (
@@ -28,4 +28,4 @@ const LinksPage = () => {
     )
 }
 
-export default LinksPage;
+export default LinksPage

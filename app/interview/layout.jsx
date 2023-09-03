@@ -4,7 +4,7 @@ export const metadata = {
 }
 
 const SawyerLayout = (props) => {
-    const { children } = props;
+    const { children } = props
 
     return (
         <main>
@@ -13,4 +13,4 @@ const SawyerLayout = (props) => {
     )
 }
 
-export default SawyerLayout;
+export default SawyerLayout

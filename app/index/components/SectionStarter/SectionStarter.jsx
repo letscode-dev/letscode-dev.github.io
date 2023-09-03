@@ -1,10 +1,10 @@
-import cn from 'classnames';
-import Image from 'next/image';
+import cn from 'classnames'
+import Image from 'next/image'
 
-import logo from './img/logo.svg';
-import Chip from '../../../../ui-kit/Chip';
+import logo from './img/logo.svg'
+import Chip from '../../../../ui-kit/Chip'
 
-import styles from './SectionStarter.module.css';
+import styles from './SectionStarter.module.css'
 
 const SectionStarter = () => {
     return (
@@ -38,4 +38,4 @@ const SectionStarter = () => {
     )
 }
 
-export default SectionStarter;
+export default SectionStarter

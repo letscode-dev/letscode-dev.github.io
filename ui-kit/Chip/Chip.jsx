@@ -1,9 +1,9 @@
-import cn from 'classnames';
+import cn from 'classnames'
 
-import styles from './Chip.module.css';
+import styles from './Chip.module.css'
 
 const Chip = (props) => {
-    const { children } = props;
+    const { children } = props
 
     return (
         <span className={cn(styles.item, props.className)}>
@@ -12,4 +12,4 @@ const Chip = (props) => {
     )
 }
 
-export default Chip;
+export default Chip

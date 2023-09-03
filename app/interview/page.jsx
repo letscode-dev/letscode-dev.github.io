@@ -1,4 +1,4 @@
-import SectionStarter from './components/SectionStarter';
+import SectionStarter from './components/SectionStarter'
 
 const InterviewPage = () => {
     return (
@@ -8,4 +8,4 @@ const InterviewPage = () => {
     )
 }
 
-export default InterviewPage;
+export default InterviewPage

@@ -1,11 +1,11 @@
 "use client"
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
-import MenuButton from '../MenuButton';
+import MenuButton from '../MenuButton'
 
-import styles from './MenuItem.module.css';
+import styles from './MenuItem.module.css'
 
 const MenuItem = (props) => {
     const { item } = props;
@@ -26,4 +26,4 @@ const MenuItem = (props) => {
     )
 }
 
-export default MenuItem;
+export default MenuItem

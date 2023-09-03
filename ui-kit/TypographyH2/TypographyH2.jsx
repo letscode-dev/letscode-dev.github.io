@@ -1,7 +1,7 @@
-import styles from './TypographyH2.module.css';
+import styles from './TypographyH2.module.css'
 
 const TypographyH2 = (props) => {
-    const { children } = props;
+    const { children } = props
 
     return (
         <h2 className={styles.h2}>
@@ -12,4 +12,4 @@ const TypographyH2 = (props) => {
     )
 }
 
-export default TypographyH2;
+export default TypographyH2

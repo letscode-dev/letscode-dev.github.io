@@ -1,5 +1,5 @@
-import cn from 'classnames';
-import { Roboto, Open_Sans } from 'next/font/google';
+import cn from 'classnames'
+import { Roboto, Open_Sans } from 'next/font/google'
 
 /*
 span {
@@ -69,4 +69,4 @@ export default cn(
     robotoBold.variable,
     robotoBlack.variable,
     opensansRegular.variable,
-);
+)

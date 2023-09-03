@@ -1,12 +1,13 @@
-import cn from 'classnames';
+import cn from 'classnames'
 
-import Button from '@mui/material/Button';
-import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
+import Button from '@mui/material/Button'
+import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined'
 
-import { PUBLICATIONS } from './data/publications';
-import TypographyH2 from '../../../../ui-kit/TypographyH2';
+import { PUBLICATIONS } from './data'
+import TypographyH2 from '../../../../ui-kit/TypographyH2'
+import Chip from '../../../../ui-kit/Chip'
 
-import styles from './SectionPublications.module.css';
+import styles from './SectionPublications.module.css'
 
 const SectionPublications = () => {
     return (
@@ -23,16 +24,20 @@ const SectionPublications = () => {
 
                             <div className={styles.tagsContainer}>
                                 {itemPublication.tags.map((itemTag, indexTag) => (
-                                    <span key={indexTag} className={styles.tag}>
+                                    <Chip key={indexTag} className={styles.chip}>
                                         {itemTag}
-                                    </span>
+                                    </Chip>
                                 ))}
                             </div>
 
                             <div className={styles.description}>
                                 {itemPublication.description}
                             </div>
-                            <a className={cn(styles.link, 'link')} href={itemPublication.link} target='_blank'>
+                            <a
+                                className={cn(styles.link, 'link')}
+                                href={itemPublication.link}
+                                target='_blank'
+                            >
                                 <Button
                                     variant="outlined"
                                     color="inherit"
@@ -40,8 +45,6 @@ const SectionPublications = () => {
                                     endIcon={<OpenInNewOutlinedIcon />}
                                     sx={{
                                         textTransform: 'none',
-                                        // color: '#611161',
-                                        // borderColor: '#611161'
                                         backgroundColor: '#fff'
                                     }}
                                 >
@@ -56,4 +59,4 @@ const SectionPublications = () => {
     )
 }
 
-export default SectionPublications;
+export default SectionPublications

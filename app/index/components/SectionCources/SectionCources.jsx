@@ -1,10 +1,10 @@
-import cn from 'classnames';
+import cn from 'classnames'
 
-import { COURCES } from './data/cources';
-import TypographyH2 from '../../../../ui-kit/TypographyH2';
-import Options from './components/Options';
+import { COURCES } from './data/cources'
+import TypographyH2 from '../../../../ui-kit/TypographyH2'
+import Options from './components/Options'
 
-import styles from './SectionCources.module.css';
+import styles from './SectionCources.module.css'
 
 const SectionCources = () => {
     return (
@@ -40,4 +40,4 @@ const SectionCources = () => {
     )
 }
 
-export default SectionCources;
+export default SectionCources

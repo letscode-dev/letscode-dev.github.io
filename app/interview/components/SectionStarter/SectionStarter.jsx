@@ -1,11 +1,11 @@
 "use client"
 
-import cn from 'classnames';
-import Button from '@mui/material/Button';
+import cn from 'classnames'
+import Button from '@mui/material/Button'
 
-import { sendTelegramMessage } from '../../services/telegram';
+import { sendTelegramMessage } from '../../services/telegram'
 
-import styles from './SectionStarter.module.css';
+import styles from './SectionStarter.module.css'
 
 const SectionStarter = () => {
     return (
@@ -29,4 +29,4 @@ const SectionStarter = () => {
     )
 }
 
-export default SectionStarter;
+export default SectionStarter

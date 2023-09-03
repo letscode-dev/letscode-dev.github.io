@@ -1,6 +1,6 @@
-import FontClasses from './fonts';
+import FontClasses from './fonts'
 
-import './globals.css';
+import './globals.css'
 
 export const metadata = {
     title: 'Lets Code',
@@ -8,7 +8,7 @@ export const metadata = {
 }
 
 const RootLayout = (props) => {
-    const { children } = props;
+    const { children } = props
 
     return (
         <html lang="ru" className={FontClasses}>
@@ -19,4 +19,4 @@ const RootLayout = (props) => {
     )
 }
 
-export default RootLayout;
+export default RootLayout

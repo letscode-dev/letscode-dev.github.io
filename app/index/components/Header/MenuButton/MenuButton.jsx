@@ -1,12 +1,12 @@
-import Button from '@mui/material/Button';
+import Button from '@mui/material/Button'
+
+import styles from './MenuButton.module.css'
 
 export const ButtonStyles = {
     textTransform: "none",
     color: "#edeeef",
     fontFamily: "var(--font-roboto-regular)"
 }
-
-import styles from './MenuButton.module.css';
 
 const MenuButton = (props) => {
     const { className, children } = props;
@@ -28,4 +28,4 @@ const MenuButton = (props) => {
     )
 }
 
-export default MenuButton;
+export default MenuButton

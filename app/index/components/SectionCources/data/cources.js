@@ -1,9 +1,9 @@
-import coverReactStarWars from './img/react-star-wars.png';
-import coverJsModuleComics from './img/js-modules-comics.png';
-import coverJsGuitarShop from './img/js-guitar-shop.jpg';
-import coverGit from './img/git.png';
-import coverFrontend from './img/frontend.jpg';
-import coverMarkup from './img/markup.png';
+import coverReactStarWars from './img/react-star-wars.png'
+import coverJsModuleComics from './img/js-modules-comics.png'
+import coverJsGuitarShop from './img/js-guitar-shop.jpg'
+import coverGit from './img/git.png'
+import coverFrontend from './img/frontend.jpg'
+import coverMarkup from './img/markup.png'
 
 export const COURCES = [
     {

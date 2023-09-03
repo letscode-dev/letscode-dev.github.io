@@ -1,1 +1,1 @@
-export { default } from './SectionPublications';
+export { default } from './SectionPublications'

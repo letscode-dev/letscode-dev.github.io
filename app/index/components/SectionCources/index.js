@@ -1,1 +1,1 @@
-export { default } from './SectionCources';
+export { default } from './SectionCources'

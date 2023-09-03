@@ -1,1 +1,1 @@
-export { default } from './MenuSelected';
+export { default } from './MenuSelected'

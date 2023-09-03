@@ -1,7 +1,7 @@
-import Header from './index/components/Header';
-import SectionStarter from './index/components/SectionStarter';
-import SectionCources from './index/components/SectionCources';
-import SectionPublications from './index/components/SectionPublications';
+import Header from './index/components/Header'
+import SectionStarter from './index/components/SectionStarter'
+import SectionCources from './index/components/SectionCources'
+import SectionPublications from './index/components/SectionPublications'
 import Footer from './index/components/Footer';
 
 const App = () => {
@@ -16,4 +16,4 @@ const App = () => {
     )
 }
 
-export default App;
+export default App
