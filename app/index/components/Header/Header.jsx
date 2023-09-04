@@ -1,7 +1,7 @@
 // import Image from 'next/image'
 import cn from 'classnames'
 
-import { CONFIG, CONFIG_MOBILE } from './roures'
+import { CONFIG } from '../../routes/rouresConfig'
 // import logo from './img/logo.svg'
 
 import styles from './Header.module.css'
@@ -17,17 +17,17 @@ const Header = () => {
             /> */}
 
             <ul className={styles.list}>
-                {CONFIG.map((item, index) => (
+                {CONFIG.filter(item => item.isVisible).map((item, index) => (
                     <li className={styles.listItem} key={index}>
-                        {item}
+                        {item.component}
                     </li>
                 ))}
             </ul>
 
             <ul className={cn(styles.list, styles.listMobile)}>
-                {CONFIG_MOBILE.map((item, index) => (
+                {CONFIG.filter(item => item.isVisible && item.isMobile).map((item, index) => (
                     <li className={styles.listItem} key={index}>
-                        {item}
+                        {item.component}
                     </li>
                 ))}
             </ul>

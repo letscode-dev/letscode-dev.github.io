@@ -1,8 +1,4 @@
-import MenuRoutes from './components/MenuRoutes'
-import MenuHash from './components/MenuHash'
-import MenuSelected from './components/MenuSelected'
-
-const MENU_ROUTES = {
+export const MENU_ROUTES = {
     letsCode: {
         path: '/',
         title: 'Let\'s Code School'
@@ -13,7 +9,7 @@ const MENU_ROUTES = {
     }
 }
 
-const MENU_HASH = {
+export const MENU_HASH = {
     cources: {
         hash: 'cources',
         title: 'Курсы',
@@ -24,7 +20,7 @@ const MENU_HASH = {
     }
 }
 
-const MENU_SELECTED = {
+export const MENU_SELECTED = {
     community: {
         title: 'Коммьюнити',
         items: [
@@ -72,20 +68,3 @@ const MENU_SELECTED = {
         ]
     }
 }
-
-export const CONFIG = [
-    // Routes
-    // <MenuRoutes item={MENU_ROUTES.letsCode} />,
-    // <MenuRoutes item={MENU_ROUTES.letsInterview} />,
-    // Hash
-    <MenuHash item={MENU_HASH.cources} />,
-    <MenuHash item={MENU_HASH.publications} />,
-    // Selected
-    <MenuSelected item={MENU_SELECTED.community} />,
-    <MenuSelected item={MENU_SELECTED.learn} />,
-]
-
-export const CONFIG_MOBILE = [
-    <MenuSelected item={MENU_SELECTED.community} />,
-    <MenuSelected item={MENU_SELECTED.learn} />,
-]
