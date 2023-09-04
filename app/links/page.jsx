@@ -5,7 +5,6 @@ import styles from './LinksPage.module.css'
 const LinksPage = () => {
     return (
         <div className={styles.wrapper}>
-            <h1>Links</h1>
             {LINKS.map((linkItem, linkIndex) => (
                 <div className={styles.listContainer} key={linkIndex}>
                     <h4 className={styles.h4}>{linkItem.name}</h4>
