@@ -6,6 +6,8 @@ export const LINKS = [
             { title: 'Let\'s Interview', link: 'https://letscode-dev.github.io/interview' },
             { title: 'Anton Sergeenkov', link: 'https://anton-sergeenkov.github.io' },
             { title: 'Методичка',        link: 'https://letscode-dev.github.io/workbook' },
+            { title: 'Lingua Commit',    link: 'https://anton-sergeenkov.github.io/lingua-commit/' },
+            { title: 'Dev Commit',       link: 'https://dev-commit.github.io/' },
         ],
     },
     {
