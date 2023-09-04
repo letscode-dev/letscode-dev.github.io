@@ -36,3 +36,17 @@
         text-decoration: none;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .wrapper {
+        border: 1px solid #000;
+    }
+    .listContainer {
+        width: 100%;
+        min-width: 20px;
+    }
+    .listItem {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+}
