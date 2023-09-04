@@ -37,7 +37,11 @@ const Options = (props) => {
                 onClose={handleClose}
             >
                 {options.map((item, index) => (
-                    <MenuItem key={index} onClick={handleClose}>
+                    <MenuItem
+                        key={index}
+                        onClick={handleClose}
+                        sx={{ minHeight: 'auto' }}
+                    >
                         <a
                             className={cn("link", styles.link)}
                             href={item.link}

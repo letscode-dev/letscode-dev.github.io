@@ -49,7 +49,8 @@ const MenuSelected = (props) => {
                         onClick={handleClose}
                         sx={{
                             padding: 0,
-                            margin: 0
+                            margin: 0,
+                            minHeight: 'auto'
                         }}
                     >
                         <a
