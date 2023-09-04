@@ -9,7 +9,7 @@
     "gh": "gh-pages -d out -t true",
     "deploy": "npm run build && npm run gh-pages",
     "commit": "git add . && git commit -m \"Bash Script Commit\" && git push origin head",
-    "cd": "npm run commit && deploy"
+    "cd": "npm run commit && npm run build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
