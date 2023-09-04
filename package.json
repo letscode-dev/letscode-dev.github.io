@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "gh": "gh-pages -d out -t true",
-    "deploy": "npm run build && npm run gh-pages",
+    "gh-pages": "gh-pages -d out -t true",
     "commit": "git add . && git commit -m \"Bash Script Commit\" && git push origin head",
-    "cd": "npm run commit && npm run build"
+    "create-nojekyll": "node -r esm ./node.js/nojekyll.js",
+    "deploy": "npm run commit && npm run build && npm run create-nojekyll && npm run gh-pages"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -19,6 +19,7 @@
     "@mui/material": "^5.14.6",
     "classnames": "^2.3.2",
     "dotenv": "^16.3.1",
+    "esm": "^3.2.25",
     "next": "13.4.13",
     "react": "18.2.0",
     "react-dom": "18.2.0"
