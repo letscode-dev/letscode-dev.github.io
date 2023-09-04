@@ -26,6 +26,9 @@
         text-decoration: none;
     }
 }
+.listMobile {
+    display: none;
+}
 
 .messenger {
     display: block;
@@ -58,7 +61,13 @@
 ADAPTIVE
 /***************************************************/
 @media screen and (max-width: 600px) {
-    .container {
+    .messenger {
         display: none;
+    }
+    .list {
+        display: none;
+    }
+    .listMobile {
+        display: flex;
     }
 }

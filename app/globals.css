@@ -90,3 +90,12 @@ CLASSES
 	color: var(--color-blue);
 	text-decoration: none;
 }
+
+/***************************************************
+ADAPTIVE
+/***************************************************/
+@media screen and (max-width: 600px) {
+    .section {
+        padding: 20px;
+    }
+}

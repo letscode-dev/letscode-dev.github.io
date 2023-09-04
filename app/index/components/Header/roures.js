@@ -84,3 +84,8 @@ export const CONFIG = [
     <MenuSelected item={MENU_SELECTED.community} />,
     <MenuSelected item={MENU_SELECTED.learn} />,
 ]
+
+export const CONFIG_MOBILE = [
+    <MenuSelected item={MENU_SELECTED.community} />,
+    <MenuSelected item={MENU_SELECTED.learn} />,
+]

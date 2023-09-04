@@ -1,6 +1,7 @@
 // import Image from 'next/image'
+import cn from 'classnames'
 
-import { CONFIG } from './roures'
+import { CONFIG, CONFIG_MOBILE } from './roures'
 // import logo from './img/logo.svg'
 
 import styles from './Header.module.css'
@@ -17,6 +18,14 @@ const Header = () => {
 
             <ul className={styles.list}>
                 {CONFIG.map((item, index) => (
+                    <li className={styles.listItem} key={index}>
+                        {item}
+                    </li>
+                ))}
+            </ul>
+
+            <ul className={cn(styles.list, styles.listMobile)}>
+                {CONFIG_MOBILE.map((item, index) => (
                     <li className={styles.listItem} key={index}>
                         {item}
                     </li>
