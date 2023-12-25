@@ -15,7 +15,7 @@ const Footer = () => {
                     priority
                     className={styles.logo}
                 /> */}
-                Let's Code. Школа Frontend-разработки, 2023
+                Let's Code. Школа Frontend-разработки, 2024
             </div>
         </div>
     )
