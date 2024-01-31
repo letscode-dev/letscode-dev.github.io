@@ -32,10 +32,19 @@ export const MENU_SELECTED = {
                 href: "https://t.me/letscode_chat",
                 title: "Telegram Chat",
             },
+            // {
+            //     href: "https://t.me/letscodedev_bot",
+            //     title: "Telegram Bot",
+            // },
             {
-                href: "https://t.me/letscodedev_bot",
-                title: "Telegram Bot",
+                href: "https://www.instagram.com/letscode.dev/",
+                title: "Instagram",
             },
+            {
+                href: "https://www.linkedin.com/groups/9563965/",
+                title: "LinkedIn",
+            },
+
             {
                 href: "https://anton-sergeenkov.github.io",
                 title: "Об авторе",
@@ -67,4 +76,13 @@ export const MENU_SELECTED = {
             },
         ],
     },
+    roadmaps: {
+        title: "Roadmaps",
+        items: [
+            {
+                href: "https://lets-code.notion.site/React-Frontend-Developer-Roadmap-7bea7f13d1f745f0848161df3a95d9d6",
+                title: "React Frontend Developer",
+            },
+        ]
+    }
 };

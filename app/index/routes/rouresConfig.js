@@ -38,6 +38,11 @@ export const CONFIG = [
         isMobile: true,
         isVisible: true
     },
+    {
+        component: <MenuSelected item={MENU_SELECTED.roadmaps} />,
+        isMobile: true,
+        isVisible: true
+    },
 ]
 
 export const CONFIG_MOBILE = [

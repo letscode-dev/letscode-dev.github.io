@@ -1,13 +1,23 @@
 # Readme
 
 ### TODO
+- Поправить меню как на anton-sergeenkov.github.io
 - Добавить Prettier и Linter
-- Поменять иконку школы на сайте-портфолио
 - Написать текст об авторе
 
-### Прочие TODO
-- Для лого добавить shape. Shape-генераторы
-- Посмотреть шаблоны дизайна
+### Разделы на сайт
+
+**Об авторе**
+- Данные
+
+**Roadmaps**
+- React Frontend Developer Roadmap
+https://lets-code.notion.site/React-Frontend-Developer-Roadmap-7bea7f13d1f745f0848161df3a95d9d6
+
+**Платные курсы и услуги**
+- Менторство
+- Интервью по софт-скиллам
+- Интервью по хард-скиллам
 
 ### Deploy
 1. Остановить dev server
