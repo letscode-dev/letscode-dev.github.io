@@ -9,7 +9,7 @@
     "gh-pages": "gh-pages -d out -t true",
     "commit": "git add . && git commit -m \"Bash Script Commit\" && git push origin head",
     "create-nojekyll": "node ./node.js/nojekyll.js",
-    "deploy": "npm run commit && npm run build && npm run create-nojekyll && npm run gh-pages"
+    "deploy": "npm run build && npm run create-nojekyll && npm run gh-pages && npm run commit"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
