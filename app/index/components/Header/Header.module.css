@@ -30,7 +30,7 @@
     display: none;
 }
 
-.messenger {
+/* .messenger {
     display: block;
     width: 35px;
     height: 35px;
@@ -47,7 +47,7 @@
 }
 .messenger:hover {
     filter: invert(30%);
-}
+} */
 
 /* .logo {
     width: 70px;

@@ -32,12 +32,12 @@ const Header = () => {
                 ))}
             </ul>
 
-            <a
+            {/* <a
                 href="https://t.me/letscodedev_bot"
                 title="Telegram Bot"
                 target="_blank"
                 className={styles.messenger}
-            ></a>
+            ></a> */}
         </div>
     )
 }
