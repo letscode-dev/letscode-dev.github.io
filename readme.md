@@ -10,10 +10,6 @@
 **Об авторе**
 - Данные
 
-**Roadmaps**
-- React Frontend Developer Roadmap
-https://lets-code.notion.site/React-Frontend-Developer-Roadmap-7bea7f13d1f745f0848161df3a95d9d6
-
 **Платные курсы и услуги**
 - Менторство
 - Интервью по софт-скиллам

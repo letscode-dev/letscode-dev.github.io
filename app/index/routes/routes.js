@@ -80,7 +80,7 @@ export const MENU_SELECTED = {
         title: "Roadmaps",
         items: [
             {
-                href: "https://lets-code.notion.site/React-Frontend-Developer-Roadmap-7bea7f13d1f745f0848161df3a95d9d6",
+                href: "https://letscode-dev.github.io/workbook/posts/roadmaps/react-frontend-developer",
                 title: "React Frontend Developer",
             },
         ]
