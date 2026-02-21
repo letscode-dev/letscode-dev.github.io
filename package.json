@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "gh-pages": "gh-pages -d out -t true",
+    "gh-pages": "gh-pages -d out",
     "commit": "git add . && git commit -m \"Bash Script Commit\" && git push origin head",
     "create-nojekyll": "node ./node.js/nojekyll.js",
     "deploy": "npm run build && npm run create-nojekyll && npm run gh-pages && npm run commit"
